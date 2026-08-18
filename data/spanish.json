@@ -1,0 +1,1090 @@
+{
+  "subject": "Spanish",
+  "icon": "🗣️",
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Greetings and Everyday Phrases",
+      "summary": "The basic phrases that open almost any conversation.",
+      "body": "Spanish greetings shift depending on the time of day and how formal the situation is. 'Buenos días' covers the morning, 'buenas tardes' the afternoon, and 'buenas noches' both evening greetings and 'goodnight.' '¿Qué tal?' and '¿Cómo estás?' both mean roughly 'how are you,' though '¿Cómo estás?' is a touch more direct.\n\nA useful habit: Puerto Rican Spanish, like most Caribbean Spanish, tends to drop the final 's' in casual speech ('¿cómo está?' can sound like '¿cómo está'). Formal writing and classroom Spanish keep the 's' -- both are correct, just different registers.",
+      "vocab": [
+        {
+          "term": "Buenos días",
+          "translation": "Good morning"
+        },
+        {
+          "term": "Buenas tardes",
+          "translation": "Good afternoon"
+        },
+        {
+          "term": "Buenas noches",
+          "translation": "Good evening / Goodnight"
+        },
+        {
+          "term": "¿Qué tal?",
+          "translation": "How's it going?"
+        },
+        {
+          "term": "Mucho gusto",
+          "translation": "Nice to meet you"
+        },
+        {
+          "term": "Hasta luego",
+          "translation": "See you later"
+        },
+        {
+          "term": "Por favor / Gracias",
+          "translation": "Please / Thank you"
+        }
+      ],
+      "category": "Vocabulary & Everyday Use"
+    },
+    {
+      "id": 2,
+      "title": "Ser vs. Estar",
+      "summary": "Spanish has two verbs for 'to be' -- and the choice changes the meaning.",
+      "body": "English uses one verb, 'to be,' for both permanent traits and temporary states. Spanish splits this into two verbs, and the split carries real meaning.\n\n'Ser' is for identity, origin, and things considered inherent or lasting: 'Soy carpintero' (I am a carpenter -- a role/identity), 'Es de Puerto Rico' (He/she is from Puerto Rico -- origin).\n\n'Estar' is for states, conditions, locations, and things considered temporary or changeable: 'Estoy cansado' (I am tired -- a passing state), 'El café está en la mesa' (The coffee is on the table -- location).\n\nThe same adjective can even change meaning depending on which verb it pairs with: 'Es aburrido' means 'he/she is boring' (a trait), while 'Está aburrido' means 'he/she is bored' (a temporary state). This distinction is one of the more useful things to internalize early, since it shows up constantly.",
+      "vocab": [
+        {
+          "term": "Soy / Eres / Es",
+          "translation": "I am / You are / He-She is (ser)"
+        },
+        {
+          "term": "Estoy / Estás / Está",
+          "translation": "I am / You are / He-She is (estar)"
+        },
+        {
+          "term": "cansado/a",
+          "translation": "tired"
+        },
+        {
+          "term": "aburrido/a",
+          "translation": "boring / bored (depending on verb used)"
+        }
+      ],
+      "category": "Grammar Foundations"
+    },
+    {
+      "id": 3,
+      "title": "Present Tense: -AR Verbs",
+      "summary": "The most common verb pattern in Spanish, and how to conjugate it.",
+      "body": "Spanish verbs fall into three families based on their infinitive ending: -ar, -er, and -ir. The -ar family is the largest and most regular, which makes it the best starting point.\n\nTake 'hablar' (to speak). Remove the -ar to get the stem 'habl-', then add the ending that matches the subject: yo hablo (I speak), tú hablas (you speak), él/ella habla (he/she speaks), nosotros hablamos (we speak), ellos hablan (they speak).\n\nThis exact pattern of endings (-o, -as, -a, -amos, -an) applies to every regular -ar verb: trabajar (to work) becomes trabajo, trabajas, trabaja...; caminar (to walk) becomes camino, caminas, camina... Once the pattern is automatic, dozens of verbs become usable immediately.",
+      "vocab": [
+        {
+          "term": "hablar",
+          "translation": "to speak"
+        },
+        {
+          "term": "trabajar",
+          "translation": "to work"
+        },
+        {
+          "term": "caminar",
+          "translation": "to walk"
+        },
+        {
+          "term": "escuchar",
+          "translation": "to listen"
+        },
+        {
+          "term": "cocinar",
+          "translation": "to cook"
+        }
+      ],
+      "category": "Grammar Foundations"
+    },
+    {
+      "id": 4,
+      "title": "Numbers and Time",
+      "summary": "Counting and telling time -- practical, high-frequency vocabulary.",
+      "body": "Numbers in Spanish are regular from eleven onward but have some quirks in the teens and twenties worth memorizing by ear rather than pure logic: 'dieciséis' (16) through 'diecinueve' (19) are literally 'ten and six,' etc., while 'veintiuno' (21) fuses 'veinte y uno.'\n\nTo ask the time: '¿Qué hora es?' The answer uses 'es' for one o'clock only ('Es la una') and 'son' for everything else ('Son las tres' -- it's three o'clock). Minutes are added with 'y': 'Son las tres y veinte' (it's 3:20). Past the half hour, Spanish often counts backward using 'menos': 'Son las cuatro menos diez' (it's ten till four).",
+      "vocab": [
+        {
+          "term": "uno, dos, tres...diez",
+          "translation": "one, two, three...ten"
+        },
+        {
+          "term": "¿Qué hora es?",
+          "translation": "What time is it?"
+        },
+        {
+          "term": "Es la una",
+          "translation": "It's one o'clock"
+        },
+        {
+          "term": "Son las... ",
+          "translation": "It's ... o'clock (plural hours)"
+        },
+        {
+          "term": "y / menos",
+          "translation": "past / till (for minutes)"
+        }
+      ],
+      "category": "Vocabulary & Everyday Use"
+    },
+    {
+      "id": 5,
+      "title": "Describing People and Things",
+      "summary": "Adjective agreement -- how descriptive words shift with gender and number.",
+      "body": "Spanish nouns carry grammatical gender (masculine or feminine), and adjectives must agree with the noun they describe in both gender and number. This is one of the biggest structural differences from English.\n\n'El carpintero alto' (the tall carpenter, masculine) becomes 'la carpintera alta' if referring to a woman -- both the noun ending and the adjective ending shift. Plural adds -s or -es: 'los carpinteros altos,' 'las mesas grandes.'\n\nMost adjectives ending in -o/-a follow this pattern directly (alto/alta), while adjectives ending in a consonant or -e often stay the same for both genders (grande, feliz, joven) and only change for number.",
+      "vocab": [
+        {
+          "term": "alto/a",
+          "translation": "tall"
+        },
+        {
+          "term": "grande",
+          "translation": "big (same for both genders)"
+        },
+        {
+          "term": "feliz",
+          "translation": "happy (same for both genders)"
+        },
+        {
+          "term": "pequeño/a",
+          "translation": "small"
+        },
+        {
+          "term": "fuerte",
+          "translation": "strong"
+        }
+      ],
+      "category": "Vocabulary & Everyday Use"
+    },
+    {
+      "id": 6,
+      "title": "Talking About the Past: Preterite Basics",
+      "summary": "The verb tense for completed, one-time past actions.",
+      "body": "Spanish has two main simple past tenses, and choosing between them is about how the action is framed, not just when it happened. The preterite (pretérito) describes a completed action with a clear beginning and end: 'Trabajé ayer' (I worked yesterday -- done, finished).\n\nFor regular -ar verbs, the preterite endings are: -é, -aste, -ó, -amos, -aron. So 'trabajar' becomes: trabajé, trabajaste, trabajó, trabajamos, trabajaron.\n\nNote the accent marks on 'trabajé' and 'trabajó' -- they're not decorative, they shift which syllable is stressed and, in the case of 'trabajó' vs. the present-tense 'trabajo,' they distinguish two completely different meanings.",
+      "vocab": [
+        {
+          "term": "ayer",
+          "translation": "yesterday"
+        },
+        {
+          "term": "trabajé",
+          "translation": "I worked"
+        },
+        {
+          "term": "habló",
+          "translation": "he/she spoke"
+        },
+        {
+          "term": "caminamos",
+          "translation": "we walked"
+        },
+        {
+          "term": "anoche",
+          "translation": "last night"
+        }
+      ],
+      "category": "Verb Tenses & Moods"
+    },
+    {
+      "id": 7,
+      "title": "Useful Connectors and Small Words",
+      "summary": "The glue words that make sentences flow naturally.",
+      "body": "Beginners often speak in short, disconnected sentences because they haven't yet picked up the small connecting words fluent speakers lean on constantly. These words carry very little meaning individually but do enormous structural work.\n\n'Pero' (but), 'porque' (because), 'aunque' (although), and 'entonces' (so, then) let you link ideas instead of listing them. 'También' (also) and 'tampoco' (neither/either, in negative sentences) let you agree or add on quickly.\n\nA natural next step past vocabulary lists: pick three of these connectors and try building one real sentence with each about your actual day. The grammar sticks far better attached to something true than to a textbook example.",
+      "vocab": [
+        {
+          "term": "pero",
+          "translation": "but"
+        },
+        {
+          "term": "porque",
+          "translation": "because"
+        },
+        {
+          "term": "aunque",
+          "translation": "although"
+        },
+        {
+          "term": "entonces",
+          "translation": "so / then"
+        },
+        {
+          "term": "también / tampoco",
+          "translation": "also / neither-either"
+        }
+      ],
+      "category": "Vocabulary & Everyday Use"
+    },
+    {
+      "title": "Direct and Indirect Object Pronouns",
+      "summary": "The small words that replace 'it,' 'him,' 'her,' and 'to me' in a sentence.",
+      "body": "Direct object pronouns replace the thing directly receiving the action: 'Como el pan' (I eat the bread) becomes 'Lo como' (I eat it). The direct object pronouns are me, te, lo/la, nos, los/las -- and they go before a conjugated verb, not after, unlike English.\n\nIndirect object pronouns show who benefits from or receives the action indirectly: 'Le doy el libro' (I give the book to him/her) -- 'le' indicates the receiver of the giving, while 'el libro' is what's actually being given. The indirect set is me, te, le, nos, les.\n\nWhen both appear together, the indirect pronoun comes first: 'Se lo doy' (I give it to him/her) -- note 'le' shifts to 'se' when paired directly with 'lo' or 'la,' purely to avoid an awkward sound. This combination trips up most learners at first; it becomes automatic mainly through repeated listening and speaking rather than memorized rules alone.",
+      "vocab": [
+        {
+          "term": "lo / la",
+          "translation": "it, him / it, her (direct object)"
+        },
+        {
+          "term": "me / te / nos",
+          "translation": "me / you / us (direct or indirect)"
+        },
+        {
+          "term": "le / les",
+          "translation": "to him-her / to them (indirect object)"
+        },
+        {
+          "term": "se lo, se la",
+          "translation": "it to him-her (combined form)"
+        }
+      ],
+      "id": 8,
+      "category": "Grammar Foundations"
+    },
+    {
+      "title": "The Imperfect Tense",
+      "summary": "The past tense for ongoing, repeated, or background actions.",
+      "body": "Where the preterite marks a completed action, the imperfect describes something ongoing, habitual, or used to happen repeatedly, with no defined endpoint in the sentence: 'Cuando era niño, jugaba en el parque' (When I was a child, I used to play in the park).\n\nRegular -ar verbs take the endings -aba, -abas, -aba, -ábamos, -aban. So 'jugar' becomes: jugaba, jugabas, jugaba, jugábamos, jugaban. Regular -er and -ir verbs share a different set: -ía, -ías, -ía, -íamos, -ían.\n\nThe imperfect is also used for describing settings and background conditions in a story -- weather, time, age, ongoing states -- while the preterite handles the specific events that interrupt or occur within that background. 'Llovía (imperfect -- it was raining, background) cuando llegó (preterite -- he arrived, a specific event) mi hermano.' Mastering when to switch between the two tenses is one of the clearer markers of intermediate fluency.",
+      "vocab": [
+        {
+          "term": "jugaba",
+          "translation": "I used to play / was playing"
+        },
+        {
+          "term": "tenía",
+          "translation": "I used to have / had"
+        },
+        {
+          "term": "era",
+          "translation": "I was / used to be (ser, imperfect)"
+        },
+        {
+          "term": "había",
+          "translation": "there was / there were"
+        }
+      ],
+      "id": 9,
+      "category": "Verb Tenses & Moods"
+    },
+    {
+      "title": "Preterite vs. Imperfect, Side by Side",
+      "summary": "A direct comparison to lock in the difference between Spanish's two simple past tenses.",
+      "body": "The clearest way to internalize the split is through paired examples. 'Comió a las ocho' (preterite -- he ate at eight, a specific completed event) versus 'Comía a las ocho todos los días' (imperfect -- he used to eat at eight every day, a habitual pattern).\n\nA useful mental shortcut: if the sentence could reasonably be followed by 'and then...', it's often preterite (a discrete event in a sequence). If it describes a state, a repeated habit, or the backdrop against which something else happened, it's likely imperfect.\n\nSome verbs shift meaning almost entirely depending on which tense is used. 'Conocía a Juan' (imperfect) means 'I knew Juan' (an ongoing state of acquaintance), while 'Conocí a Juan' (preterite) means 'I met Juan' (the specific moment the acquaintance began). Similarly, 'sabía' means 'I knew (a fact),' while 'supe' means 'I found out.' These aren't exceptions to memorize separately -- they're the same core distinction (state vs. event) showing up clearly because the English translations happen to diverge.",
+      "vocab": [
+        {
+          "term": "conocía / conocí",
+          "translation": "I knew (ongoing) / I met (specific moment)"
+        },
+        {
+          "term": "sabía / supe",
+          "translation": "I knew / I found out"
+        },
+        {
+          "term": "quería / quise",
+          "translation": "I wanted / I tried, attempted"
+        }
+      ],
+      "id": 10,
+      "category": "Verb Tenses & Moods"
+    },
+    {
+      "title": "Reflexive Verbs",
+      "summary": "Verbs for actions you do to yourself.",
+      "body": "Reflexive verbs describe an action where the subject and the object are the same person -- you're doing the action to yourself. They're marked with a reflexive pronoun (me, te, se, nos, se) attached to or placed before the verb.\n\n'Lavar' means 'to wash (something),' but 'lavarse' means 'to wash oneself': 'Me lavo las manos' (I wash my hands -- literally, I wash myself the hands). Compare 'Lavo el carro' (I wash the car -- no reflexive pronoun, since the car isn't the one doing the washing to itself).\n\nMany everyday routines are expressed reflexively in Spanish where English doesn't bother: levantarse (to get [oneself] up), ducharse (to shower), vestirse (to get dressed), acostarse (to go to bed), sentarse (to sit down). Learning a person's daily routine in Spanish (rutina diaria) is one of the most efficient ways to drill reflexive verbs, since nearly the whole routine uses them back-to-back.",
+      "vocab": [
+        {
+          "term": "levantarse",
+          "translation": "to get up"
+        },
+        {
+          "term": "ducharse",
+          "translation": "to shower"
+        },
+        {
+          "term": "vestirse",
+          "translation": "to get dressed"
+        },
+        {
+          "term": "acostarse",
+          "translation": "to go to bed"
+        },
+        {
+          "term": "sentarse",
+          "translation": "to sit down"
+        }
+      ],
+      "id": 11,
+      "category": "Verb Tenses & Moods"
+    },
+    {
+      "title": "Giving Commands (Imperatives)",
+      "summary": "How to tell someone to do -- or not do -- something.",
+      "body": "Spanish commands change form depending on who you're addressing (tú, usted, ustedes) and whether the command is affirmative or negative -- a detail English skips entirely.\n\nFor regular -ar verbs, the informal affirmative tú command drops the -s from the present tense form: 'hablas' (you speak) becomes '¡Habla!' (Speak!). The negative tú command uses a different pattern entirely, borrowed from the present subjunctive: '¡No hables!' (Don't speak!).\n\nFormal commands (usted/ustedes) use the subjunctive form for both affirmative and negative: '¡Hable!' (Speak! -- formal), '¡No hable!' (Don't speak! -- formal). Object pronouns attach to the end of affirmative commands ('¡Háblame!' -- Talk to me!) but move in front of negative commands ('¡No me hables!' -- Don't talk to me!) -- the same flip-flop pattern shows up across most command forms and is worth drilling specifically, since it's one of the more counterintuitive rules for English speakers.",
+      "vocab": [
+        {
+          "term": "¡Habla! / ¡No hables!",
+          "translation": "Speak! / Don't speak! (informal)"
+        },
+        {
+          "term": "¡Coma! / ¡No coma!",
+          "translation": "Eat! / Don't eat! (formal)"
+        },
+        {
+          "term": "¡Espera! ",
+          "translation": "Wait! (informal)"
+        }
+      ],
+      "id": 12,
+      "category": "Verb Tenses & Moods"
+    },
+    {
+      "title": "Por vs. Para",
+      "summary": "Two words that both translate roughly to 'for' -- but mean very different things.",
+      "body": "Few grammar points frustrate learners more consistently than por vs. para, since English collapses both into 'for' in many contexts, hiding a real distinction in Spanish.\n\nPara generally points toward a purpose, destination, deadline, or recipient -- the 'for' of intention: 'Este regalo es para ti' (this gift is for you -- recipient), 'Salimos para San Juan' (we're leaving for San Juan -- destination), 'Lo necesito para el lunes' (I need it by Monday -- deadline).\n\nPor generally points toward a cause, means, exchange, or duration -- the 'for' of reason or passage: 'Gracias por tu ayuda' (thanks for your help -- cause), 'Viajamos por la costa' (we traveled along/through the coast -- movement through), 'Pagué diez dólares por el libro' (I paid ten dollars for the book -- exchange), 'Trabajé por tres horas' (I worked for three hours -- duration).\n\nA rough shortcut: para looks forward (toward a goal), por looks at the reason behind or the path through. It's imperfect as a rule, but it resolves the majority of confusing cases.",
+      "vocab": [
+        {
+          "term": "para ti",
+          "translation": "for you (recipient)"
+        },
+        {
+          "term": "por favor",
+          "translation": "please (literally 'for favor')"
+        },
+        {
+          "term": "por tres horas",
+          "translation": "for three hours (duration)"
+        },
+        {
+          "term": "para el lunes",
+          "translation": "by Monday (deadline)"
+        }
+      ],
+      "id": 13,
+      "category": "Grammar Foundations"
+    },
+    {
+      "title": "The Future Tense",
+      "summary": "Talking about what will happen -- and a shortcut Spanish speakers use constantly.",
+      "body": "Spanish has a formal future tense, built by adding endings directly to the infinitive (not a modified stem, which makes it fairly easy): -é, -ás, -á, -emos, -án. 'Hablar' becomes hablaré, hablarás, hablará, hablaremos, hablarán -- 'I will speak,' etc.\n\nIn everyday spoken Spanish, though, a simpler construction is used constantly, much like English 'going to': ir + a + infinitive. 'Voy a hablar con él' (I'm going to talk to him) is heard far more often in casual speech than 'Hablaré con él,' which can sound slightly more formal or literary, similar to how 'I shall speak with him' sounds more formal than 'I'm gonna talk to him' in English.\n\nThe formal future tense has a second, less obvious use: expressing probability or guesswork about the present. '¿Qué hora será?' doesn't mean 'what time will it be' in a literal future sense -- it means something closer to 'I wonder what time it is,' using the future tense to signal uncertainty rather than a prediction about tomorrow.",
+      "vocab": [
+        {
+          "term": "hablaré",
+          "translation": "I will speak"
+        },
+        {
+          "term": "voy a hablar",
+          "translation": "I'm going to speak (casual)"
+        },
+        {
+          "term": "será",
+          "translation": "it will be / it probably is"
+        }
+      ],
+      "id": 14,
+      "category": "Verb Tenses & Moods"
+    },
+    {
+      "title": "Comparatives and Superlatives",
+      "summary": "Saying something is more, less, or the most.",
+      "body": "To compare two things, Spanish uses más...que (more...than) or menos...que (less...than): 'Este mueble es más pesado que ese' (this piece of furniture is heavier than that one). For equal comparisons, use tan...como (as...as): 'Es tan fuerte como el otro' (it's as strong as the other one).\n\nA handful of common adjectives have irregular comparative forms that skip más entirely: bueno (good) becomes mejor (better), not 'más bueno'; malo (bad) becomes peor (worse); grande and pequeño can go either the regular route (más grande) or use mayor/menor, which lean more toward age or importance than physical size.\n\nSuperlatives -- 'the most,' 'the -est' -- typically use el/la + más + adjective: 'el más fuerte' (the strongest). Spanish also has a separate intensifier, the -ísimo suffix, which doesn't compare against anything -- it just means 'extremely': 'fuertísimo' (extremely strong), used constantly in casual speech to add emphasis without needing a comparison at all.",
+      "vocab": [
+        {
+          "term": "más...que / menos...que",
+          "translation": "more...than / less...than"
+        },
+        {
+          "term": "tan...como",
+          "translation": "as...as"
+        },
+        {
+          "term": "mejor / peor",
+          "translation": "better / worse"
+        },
+        {
+          "term": "fuertísimo",
+          "translation": "extremely strong"
+        }
+      ],
+      "id": 15,
+      "category": "Grammar Foundations"
+    },
+    {
+      "title": "Common Idioms and Expressions",
+      "summary": "Phrases that don't translate literally but come up constantly in real speech.",
+      "body": "Every language has expressions that make no sense translated word-for-word, and knowing a handful makes conversation sound far more natural than textbook-correct grammar alone.\n\n'Estar en las nubes' literally means 'to be in the clouds,' used the same way English uses 'to have your head in the clouds' -- distracted, daydreaming. 'Costar un ojo de la cara' ('to cost an eye from the face') matches the English 'to cost an arm and a leg' -- expensive.\n\n'Meter la pata' ('to put in the paw/hoof') means to mess up or say the wrong thing, roughly equivalent to 'to put your foot in your mouth.' 'No tener pelos en la lengua' ('to have no hairs on the tongue') describes someone who speaks bluntly, without sugar-coating.\n\nCaribbean Spanish, including Puerto Rican speech, adds its own layer on top of these -- expressions like '¡ay bendito!' (a flexible exclamation covering sympathy, surprise, or mild frustration) or 'wepa' (an exclamation of enthusiasm or celebration) are regionally distinct and rarely taught in standard textbooks, but instantly recognizable as local.",
+      "vocab": [
+        {
+          "term": "estar en las nubes",
+          "translation": "to be daydreaming"
+        },
+        {
+          "term": "costar un ojo de la cara",
+          "translation": "to cost a fortune"
+        },
+        {
+          "term": "meter la pata",
+          "translation": "to mess up, say the wrong thing"
+        },
+        {
+          "term": "¡ay bendito!",
+          "translation": "oh my / bless it (Caribbean, flexible exclamation)"
+        }
+      ],
+      "id": 16,
+      "category": "Vocabulary & Everyday Use"
+    },
+    {
+      "title": "Food and Cooking Vocabulary",
+      "summary": "Kitchen and market vocabulary, with a Puerto Rican slant.",
+      "body": "Food vocabulary tends to stick faster than abstract grammar because it attaches to something concrete and often personal. A few staples of Puerto Rican cooking come with their own specific terms not always found in general Spanish courses: sofrito (the aromatic base of onion, pepper, garlic, and herbs used in countless dishes), adobo (a seasoning blend rubbed onto meat before cooking), and viandas (a general term for starchy root vegetables like yuca, yautía, and plátano).\n\nBasic kitchen verbs: cocinar (to cook), hervir (to boil), freír (to fry), hornear (to bake), picar (to chop/mince), mezclar (to mix). At the market or in a recipe, cantidades (quantities) matter: una libra (a pound), un puñado (a handful), a gusto (to taste).\n\nA natural way to practice this vocabulary: try narrating an actual recipe you cook regularly, out loud, in Spanish, using these terms -- it roots the words in something already familiar rather than an abstract list.",
+      "vocab": [
+        {
+          "term": "sofrito",
+          "translation": "aromatic cooking base (onion, pepper, garlic, herbs)"
+        },
+        {
+          "term": "hervir / freír / hornear",
+          "translation": "to boil / to fry / to bake"
+        },
+        {
+          "term": "picar",
+          "translation": "to chop, mince"
+        },
+        {
+          "term": "a gusto",
+          "translation": "to taste (seasoning)"
+        }
+      ],
+      "id": 17,
+      "category": "Vocabulary & Everyday Use"
+    },
+    {
+      "title": "Family and Relationship Vocabulary",
+      "summary": "Talking about the people in your life.",
+      "body": "Immediate family: padres (parents), madre/mamá (mother), padre/papá (father), hermano/a (brother/sister), hijo/a (son/daughter), abuelo/a (grandfather/grandmother). Extended family introduces some terms English handles less precisely: cuñado/a (brother/sister-in-law), suegro/a (father/mother-in-law), nieto/a (grandson/granddaughter), sobrino/a (nephew/niece).\n\nOne notable structural difference: Spanish uses the masculine plural to refer to a mixed-gender group by default. 'Mis hermanos' can mean 'my brothers' or 'my siblings' (brothers and sisters together) depending on context -- the masculine plural covers both, which surprises many English speakers at first.\n\nFor describing relationships more broadly: pareja (partner, romantic), amigo/a (friend), mejor amigo/a (best friend), conocido/a (acquaintance -- someone you know but aren't close with). 'Llevarse bien/mal con alguien' (to get along well/badly with someone) is a common, useful structure: 'Me llevo muy bien con mi hermano' (I get along very well with my brother).",
+      "vocab": [
+        {
+          "term": "hermano/a",
+          "translation": "brother / sister"
+        },
+        {
+          "term": "suegro/a",
+          "translation": "father-in-law / mother-in-law"
+        },
+        {
+          "term": "sobrino/a",
+          "translation": "nephew / niece"
+        },
+        {
+          "term": "llevarse bien con",
+          "translation": "to get along well with"
+        }
+      ],
+      "id": 18,
+      "category": "Vocabulary & Everyday Use"
+    },
+    {
+      "title": "Travel and Asking for Directions",
+      "summary": "Getting around and asking for help in Spanish.",
+      "body": "Asking for directions politely usually starts with 'Disculpe' or 'Perdón' (excuse me), followed by the question: '¿Cómo llego a...?' (How do I get to...?) or '¿Dónde queda...?' (Where is...located?).\n\nCommon directional vocabulary: derecho (straight ahead), a la derecha / a la izquierda (to the right / to the left), la esquina (the corner), la cuadra (the block), el semáforo (the traffic light). 'Siga derecho dos cuadras y doble a la izquierda' (Continue straight two blocks and turn left) is a typical response you'd hear.\n\nAt an airport or bus station: el vuelo (the flight), el equipaje (the luggage), la puerta de embarque (the boarding gate), el asiento (the seat). 'Quisiera' (I would like) is a softer, more polite alternative to 'quiero' (I want) when making requests -- 'Quisiera un boleto para San Juan' sounds noticeably more courteous than 'Quiero un boleto,' the same distinction as 'I would like' versus 'I want' in English.",
+      "vocab": [
+        {
+          "term": "a la derecha / izquierda",
+          "translation": "to the right / left"
+        },
+        {
+          "term": "siga derecho",
+          "translation": "continue straight"
+        },
+        {
+          "term": "la cuadra",
+          "translation": "the block"
+        },
+        {
+          "term": "quisiera",
+          "translation": "I would like (polite)"
+        }
+      ],
+      "id": 19,
+      "category": "Vocabulary & Everyday Use"
+    },
+    {
+      "title": "The Subjunctive Mood: A First Look",
+      "summary": "The mood Spanish uses for doubt, wish, and things that aren't (yet) fact.",
+      "body": "The subjunctive is less a tense than a mood -- it signals that what's being described isn't a straightforward fact, but a wish, doubt, emotion, request, or hypothetical. English has a faint trace of it ('If I were you...' uses a subjunctive-like form), but Spanish uses it constantly and systematically.\n\nCompare 'Creo que él viene' (I believe he's coming -- indicative, stated as fact) with 'Dudo que él venga' (I doubt he's coming -- subjunctive, because doubt introduces uncertainty). Or 'Quiero que vengas' (I want you to come) -- the subjunctive 'vengas' appears because wanting someone to do something doesn't guarantee they will.\n\nCommon triggers for the subjunctive include expressions of doubt (dudar que), wish (querer que, esperar que), emotion (alegrarse de que, temer que), and impersonal recommendations (es importante que, es necesario que). This is genuinely one of the more difficult structures for English speakers to internalize, mostly because English doesn't mark this distinction grammatically in most everyday speech -- it takes sustained exposure more than memorized rules to become natural.",
+      "vocab": [
+        {
+          "term": "dudo que venga",
+          "translation": "I doubt (that) he's coming"
+        },
+        {
+          "term": "quiero que vengas",
+          "translation": "I want you to come"
+        },
+        {
+          "term": "espero que estés bien",
+          "translation": "I hope you're doing well"
+        },
+        {
+          "term": "es importante que...",
+          "translation": "it's important that..."
+        }
+      ],
+      "id": 20,
+      "category": "Verb Tenses & Moods"
+    },
+    {
+      "id": 21,
+      "title": "Gender of Nouns and Articles",
+      "summary": "Every Spanish noun is masculine or feminine -- and it changes the words around it.",
+      "body": "Every noun in Spanish carries a grammatical gender, masculine or feminine, and it isn't about the thing itself -- \"la mesa\" (the table) is feminine and \"el libro\" (the book) is masculine for no reason beyond how the language classifies them. The good news is there are strong patterns: nouns ending in -o are usually masculine, nouns ending in -a are usually feminine, though there are common exceptions worth memorizing as you meet them (\"la mano,\" the hand, breaks the -o/-a rule; \"el día,\" the day, does too).\n\nThe definite article (\"the\") tracks both gender and number: el libro, la mesa, los libros, las mesas. The indefinite article (\"a/an/some\") does the same: un libro, una mesa, unos libros, unas mesas. This agreement doesn't stop at the article -- adjectives describing the noun have to match too, which is why gender is worth locking in early rather than patching in later.\n\nOne quirk: a handful of feminine nouns that start with a stressed \"a\" sound (like \"agua,\" water) take \"el\" instead of \"la\" in the singular purely for pronunciation -- \"el agua fría,\" even though it's still grammatically feminine, so a matching adjective stays feminine too.",
+      "vocab": [
+        {
+          "term": "el / la",
+          "translation": "the (masculine / feminine)"
+        },
+        {
+          "term": "un / una",
+          "translation": "a, an (masculine / feminine)"
+        },
+        {
+          "term": "el problema",
+          "translation": "the problem (masculine despite -a ending)"
+        },
+        {
+          "term": "la mano",
+          "translation": "the hand (feminine despite -o ending)"
+        },
+        {
+          "term": "el agua",
+          "translation": "the water (feminine noun, masculine article)"
+        }
+      ],
+      "category": "Grammar Foundations"
+    },
+    {
+      "id": 22,
+      "title": "Present Tense: -ER and -IR Verbs",
+      "summary": "Rounding out the present tense with the other two regular verb families.",
+      "body": "Spanish verbs fall into three families based on their infinitive ending: -ar, -er, and -ir. The -ar pattern was covered earlier; -er and -ir verbs share almost the same endings as each other, differing only in the nosotros and vosotros forms.\n\nFor -er verbs like \"comer\" (to eat): como, comes, come, comemos, coméis, comen.\nFor -ir verbs like \"vivir\" (to live): vivo, vives, vive, vivimos, vivís, viven.\n\nNotice the pattern: yo always ends in -o across all three verb families, and tú always ends in -es (-ar) or -es (-er/-ir). Once these three patterns feel automatic, you can conjugate the vast majority of regular Spanish verbs in the present tense without thinking about it.\n\nCommon -er verbs worth knowing early: aprender (to learn), beber (to drink), leer (to read). Common -ir verbs: escribir (to write), abrir (to open), decidir (to decide). A handful of very common verbs (venir, decir, tener) look like -ir/-er verbs but have irregular yo forms -- those get their own dedicated lesson next.",
+      "vocab": [
+        {
+          "term": "comer",
+          "translation": "to eat"
+        },
+        {
+          "term": "vivir",
+          "translation": "to live"
+        },
+        {
+          "term": "aprender",
+          "translation": "to learn"
+        },
+        {
+          "term": "escribir",
+          "translation": "to write"
+        },
+        {
+          "term": "leer",
+          "translation": "to read"
+        },
+        {
+          "term": "abrir",
+          "translation": "to open"
+        }
+      ],
+      "category": "Grammar Foundations"
+    },
+    {
+      "id": 23,
+      "title": "Stem-Changing Verbs",
+      "summary": "A large group of common verbs that shift a vowel in most forms -- but not all.",
+      "body": "A stem-changing verb looks regular in its infinitive but shifts a vowel in the stem for every form except nosotros and vosotros. The three main patterns are e→ie, o→ue, and e→i.\n\ne→ie: querer (to want) becomes quiero, quieres, quiere, queremos, queréis, quieren.\no→ue: poder (to be able to) becomes puedo, puedes, puede, podemos, podéis, pueden.\ne→i: pedir (to ask for) becomes pido, pides, pide, pedimos, pedís, piden.\n\nNotice in every case that the \"we\" and \"you-all (Spain)\" forms keep the original vowel -- the shift only happens where the stress falls on that syllable, which is exactly the nosotros/vosotros forms don't.\n\nThese aren't rare exceptions -- some of the most common verbs in the language are stem-changers: pensar (to think), volver (to return), dormir (to sleep), servir (to serve), empezar (to begin), entender (to understand). There's no shortcut except repetition: the pattern becomes automatic once you've used a handful of these verbs enough times in real sentences.",
+      "vocab": [
+        {
+          "term": "querer (quiero)",
+          "translation": "to want"
+        },
+        {
+          "term": "poder (puedo)",
+          "translation": "to be able to, can"
+        },
+        {
+          "term": "pedir (pido)",
+          "translation": "to ask for, order"
+        },
+        {
+          "term": "pensar (pienso)",
+          "translation": "to think"
+        },
+        {
+          "term": "dormir (duermo)",
+          "translation": "to sleep"
+        },
+        {
+          "term": "empezar (empiezo)",
+          "translation": "to begin"
+        }
+      ],
+      "category": "Grammar Foundations"
+    },
+    {
+      "id": 24,
+      "title": "Ir, Tener, and Other High-Frequency Irregulars",
+      "summary": "The handful of verbs so common they simply have to be memorized outright.",
+      "body": "A small set of Spanish verbs are irregular enough that they don't follow any pattern -- but they're used so constantly that they're worth memorizing early rather than waiting for them to feel automatic through exposure alone.\n\nIr (to go): voy, vas, va, vamos, vais, van. \"Ir a\" plus an infinitive is also the everyday way to talk about the near future -- \"voy a comer\" (I'm going to eat) -- and it's genuinely more common in spoken Spanish than the formal future tense.\n\nTener (to have): tengo, tienes, tiene, tenemos, tenéis, tienen. Tener also covers a batch of expressions English handles with \"to be\": tener hambre (to be hungry), tener sed (to be thirsty), tener razón (to be right), tener... años (to be ... years old) -- all use tener, not ser or estar.\n\nHacer (to do/make): hago, haces, hace, hacemos, hacéis, hacen. Ser and estar (to be) were covered in an earlier lesson, and remain the two most irregular, most essential verbs in the language.\n\nA useful memory hook: most of these irregular verbs are irregular only in the \"yo\" form (tengo, hago, salgo, pongo) and then fall back into a regular or stem-changing pattern for everyone else -- so you're really only memorizing one odd form per verb, not six.",
+      "vocab": [
+        {
+          "term": "ir (voy)",
+          "translation": "to go"
+        },
+        {
+          "term": "tener (tengo)",
+          "translation": "to have"
+        },
+        {
+          "term": "hacer (hago)",
+          "translation": "to do, make"
+        },
+        {
+          "term": "tener hambre / sed",
+          "translation": "to be hungry / thirsty"
+        },
+        {
+          "term": "ir a + infinitivo",
+          "translation": "going to (do something) -- near future"
+        }
+      ],
+      "category": "Grammar Foundations"
+    },
+    {
+      "id": 25,
+      "title": "Gustar and Verbs Like It",
+      "summary": "Why 'I like tacos' is grammatically 'tacos please me' in Spanish.",
+      "body": "Gustar doesn't work like English \"to like\" -- it works more like \"to please,\" and the sentence structure flips accordingly. \"Me gusta el café\" literally means \"coffee is pleasing to me,\" not \"I like coffee\" word-for-word, even though that's the natural translation.\n\nThe subject of a gustar sentence is the thing being liked, not the person doing the liking -- which is why the verb form depends on whether one thing or several things are pleasing:\n\n Me gusta el café. (singular thing → gusta)\n Me gustan los tacos. (plural things → gustan)\n\nThe person doing the liking shows up as an indirect object pronoun in front of the verb: me (to me), te (to you), le (to him/her/you-formal), nos (to us), les (to them/you-all). \"¿Te gusta la playa?\" -- Do you like the beach?\n\nA handful of other common verbs follow this exact same backwards pattern: encantar (to love/be delighted by), interesar (to interest), molestar (to bother), doler (to hurt -- \"me duele la cabeza,\" my head hurts). Once gustar clicks, all of these fall into place the same way.",
+      "vocab": [
+        {
+          "term": "gustar",
+          "translation": "to like (lit. to be pleasing)"
+        },
+        {
+          "term": "encantar",
+          "translation": "to love (something), be delighted by"
+        },
+        {
+          "term": "interesar",
+          "translation": "to interest"
+        },
+        {
+          "term": "doler",
+          "translation": "to hurt"
+        },
+        {
+          "term": "me / te / le / nos / les",
+          "translation": "to me / you / him,her,you / us / them,you-all"
+        }
+      ],
+      "category": "Grammar Foundations"
+    },
+    {
+      "id": 26,
+      "title": "Question Words and Asking Questions",
+      "summary": "The words that open every question, and how Spanish punctuates them.",
+      "body": "Spanish marks a question at both ends -- an inverted question mark opens it (¿) and a normal one closes it (?), which is genuinely useful in speech and writing alike, since it signals a question is coming before you've even read it.\n\nThe core question words: qué (what), quién/quiénes (who), cuándo (when), dónde (where), por qué (why), cómo (how), cuál/cuáles (which), cuánto/cuánta/cuántos/cuántas (how much/how many -- and yes, it agrees in gender and number with what's being asked about).\n\n ¿Qué hora es? -- What time is it?\n ¿Dónde vives? -- Where do you live?\n ¿Cuántos años tienes? -- How old are you? (lit. how many years do you have)\n\nNotice all question words carry a written accent -- qué, cómo, dónde -- which distinguishes them from the same words used non-question, like \"que\" as a plain connector (\"creo que sí,\" I think so) or \"como\" meaning \"like/as.\" The accent is doing real grammatical work, not just decoration.\n\nA yes/no question in Spanish often just uses the statement's word order with rising intonation (spoken) or question marks (written) -- no auxiliary \"do\" needed the way English requires: \"¿Hablas español?\" not some equivalent of \"do you speak Spanish.\"",
+      "vocab": [
+        {
+          "term": "¿qué?",
+          "translation": "what?"
+        },
+        {
+          "term": "¿quién?",
+          "translation": "who?"
+        },
+        {
+          "term": "¿cuándo?",
+          "translation": "when?"
+        },
+        {
+          "term": "¿dónde?",
+          "translation": "where?"
+        },
+        {
+          "term": "¿por qué?",
+          "translation": "why?"
+        },
+        {
+          "term": "¿cómo?",
+          "translation": "how?"
+        },
+        {
+          "term": "¿cuánto/a/os/as?",
+          "translation": "how much / how many?"
+        }
+      ],
+      "category": "Grammar Foundations"
+    },
+    {
+      "id": 27,
+      "title": "Negation",
+      "summary": "Saying no in Spanish -- including the double negatives English tells you to avoid.",
+      "body": "The simplest negation just places \"no\" before the verb: \"No hablo francés\" (I don't speak French). Unlike English, this doesn't need a helper verb like \"do\" -- \"no\" alone does the whole job.\n\nWhere Spanish diverges sharply from English is that double negatives aren't just allowed, they're required. If a negative word like \"nada\" (nothing) or \"nadie\" (nobody) comes after the verb, \"no\" still has to appear before it:\n\n No tengo nada. -- I don't have anything. (lit. \"I don't have nothing\")\n No conozco a nadie aquí. -- I don't know anyone here.\n\nThe negative word can also lead the sentence instead, in which case \"no\" drops out since it would be redundant: \"Nadie sabe\" (Nobody knows) instead of \"No nadie sabe.\"\n\nCommon negative words: nada (nothing), nadie (nobody), nunca (never), ninguno/ninguna (none, not any), tampoco (neither, not either -- the negative answer to \"también,\" also). \"Tampoco\" is a genuinely useful everyday word: if someone says \"No me gusta el café\" and you agree, you'd say \"A mí tampoco\" (Me neither).",
+      "vocab": [
+        {
+          "term": "nada",
+          "translation": "nothing"
+        },
+        {
+          "term": "nadie",
+          "translation": "nobody, no one"
+        },
+        {
+          "term": "nunca",
+          "translation": "never"
+        },
+        {
+          "term": "ninguno / ninguna",
+          "translation": "none, not any"
+        },
+        {
+          "term": "tampoco",
+          "translation": "neither, not either"
+        }
+      ],
+      "category": "Grammar Foundations"
+    },
+    {
+      "id": 28,
+      "title": "Possessive Adjectives and Pronouns",
+      "summary": "My, your, his, her, our -- and how they agree with the thing owned, not the owner.",
+      "body": "Spanish possessives agree with the noun they describe, not with the person who owns it -- a genuinely different logic from English that trips people up early on. \"Mi\" (my) becomes \"mis\" when the thing owned is plural, regardless of how many people own it: \"mi libro\" (my book), \"mis libros\" (my books).\n\n mi/mis (my), tu/tus (your, informal), su/sus (his, her, your-formal, their)\n nuestro/nuestra/nuestros/nuestras (our) -- this one agrees in gender too, not just number\n vuestro/vuestra/vuestros/vuestras (your-all, Spain)\n\n\"Su\" is genuinely ambiguous on its own -- it can mean his, her, your (formal), or their, and context alone tells you which. When real ambiguity matters, Spanish often clarifies with \"de él\" (of his), \"de ella\" (of hers), or \"de ellos\" (of theirs) instead: \"el carro de ella\" (her car) instead of a possibly-confusing \"su carro.\"\n\nPossessive pronouns (standing in for \"mine,\" \"yours,\" \"his\") take a slightly different form -- \"el mío,\" \"la tuya,\" \"los nuestros\" -- and always include the article: \"Este libro es mío\" (This book is mine).",
+      "vocab": [
+        {
+          "term": "mi / mis",
+          "translation": "my"
+        },
+        {
+          "term": "tu / tus",
+          "translation": "your (informal)"
+        },
+        {
+          "term": "su / sus",
+          "translation": "his, her, your (formal), their"
+        },
+        {
+          "term": "nuestro/a/os/as",
+          "translation": "our"
+        },
+        {
+          "term": "de él / de ella / de ellos",
+          "translation": "his / hers / theirs (clarifying su)"
+        }
+      ],
+      "category": "Grammar Foundations"
+    },
+    {
+      "id": 29,
+      "title": "Demonstratives: This, That, and Those",
+      "summary": "Three distances, not two -- Spanish distinguishes near, a little far, and far away.",
+      "body": "English has a two-way distinction: this/these (near) versus that/those (far). Spanish has a three-way system, adding a middle distance for something near the person you're talking to but not near you.\n\n este/esta/estos/estas -- this/these (near the speaker)\n ese/esa/esos/esas -- that/those (near the listener, or moderately far from both)\n aquel/aquella/aquellos/aquellas -- that/those over there (far from both speaker and listener)\n\n Este libro (aquí) -- this book (here, near me)\n Ese libro (ahí) -- that book (there, near you)\n Aquel libro (allí/allá) -- that book (way over there)\n\nAll three forms agree in gender and number with the noun, exactly like regular adjectives. Used without a noun (standing in for \"this one,\" \"that one\"), the same words work as pronouns -- older textbooks mark this with an accent (éste, ésta) but current spelling rules no longer require it, since context almost always makes the meaning clear either way.\n\nNeuter forms exist too -- esto, eso, aquello -- used for a general idea rather than a specific noun: \"¿Qué es esto?\" (What is this?) when pointing at something unidentified.",
+      "vocab": [
+        {
+          "term": "este / esta / estos / estas",
+          "translation": "this / these (near me)"
+        },
+        {
+          "term": "ese / esa / esos / esas",
+          "translation": "that / those (near you)"
+        },
+        {
+          "term": "aquel / aquella / aquellos / aquellas",
+          "translation": "that / those (over there)"
+        },
+        {
+          "term": "esto / eso / aquello",
+          "translation": "this / that / that (neuter, general)"
+        }
+      ],
+      "category": "Grammar Foundations"
+    },
+    {
+      "id": 30,
+      "title": "Basic Prepositions",
+      "summary": "Small words that carry a lot of grammatical weight.",
+      "body": "Prepositions link nouns to the rest of a sentence, and while some map cleanly onto English, several don't -- worth learning as their own vocabulary rather than assuming a one-to-one translation.\n\n\"A\" often marks a destination or, notably, a direct object that's a specific person -- the \"personal a,\" which has no English equivalent: \"Veo a mi hermana\" (I see my sister) uses \"a\" purely because the direct object is a specific person, not because of any motion or direction.\n\n\"En\" covers both \"in\" and \"on\" -- \"en la mesa\" (on the table), \"en la casa\" (in the house) -- a single word doing the job of two in English.\n\n\"De\" covers possession, origin, and material all at once: \"el libro de Juan\" (Juan's book), \"soy de Puerto Rico\" (I'm from Puerto Rico), \"una mesa de madera\" (a wooden table).\n\nCon (with), sin (without), sobre (about/on top of), entre (between/among), hacia (toward), desde (from/since) round out the most common set. \"Con\" contracts with mí and ti specifically: conmigo (with me), contigo (with you) -- irregular forms worth memorizing since they don't follow the usual \"con + pronoun\" pattern.",
+      "vocab": [
+        {
+          "term": "a",
+          "translation": "to, at (also marks a specific-person direct object)"
+        },
+        {
+          "term": "en",
+          "translation": "in, on"
+        },
+        {
+          "term": "de",
+          "translation": "of, from"
+        },
+        {
+          "term": "con / sin",
+          "translation": "with / without"
+        },
+        {
+          "term": "conmigo / contigo",
+          "translation": "with me / with you"
+        }
+      ],
+      "category": "Grammar Foundations"
+    },
+    {
+      "id": 31,
+      "title": "Tú vs. Usted: Formality and Address",
+      "summary": "Choosing the right 'you' -- and how Puerto Rico leans on this choice.",
+      "body": "Spanish has two ways to say \"you\" in the singular: tú (informal) and usted (formal), each with its own verb conjugation. Tú is for friends, family, peers, and children; usted is for strangers, elders, authority figures, and formal or professional settings.\n\n Tú hablas español. (informal)\n Usted habla español. (formal -- notice it uses the same verb form as \"él/ella,\" third person)\n\nUsted is grammatically third person even though it means \"you\" -- which is why \"usted habla\" looks like \"he/she speaks\" in form. This trips learners up at first, but it's consistent: usted always takes the same conjugation as él/ella.\n\nIn the plural, most of Latin America (including Puerto Rico) uses \"ustedes\" for everyone, dropping the informal/formal distinction English speakers might expect from Spain's \"vosotros.\" Puerto Rican Spanish essentially never uses vosotros in everyday speech -- it shows up mainly in older texts or media from Spain, so don't worry about conjugating it for real conversation on the island.\n\nA practical rule of thumb: when in doubt, especially with someone older or in a professional context, default to usted -- switching to tú once invited to (\"Me puedes tutear,\" you can use tú with me) costs nothing, while assuming familiarity too early can read as presumptuous.",
+      "vocab": [
+        {
+          "term": "tú",
+          "translation": "you (informal, singular)"
+        },
+        {
+          "term": "usted",
+          "translation": "you (formal, singular)"
+        },
+        {
+          "term": "ustedes",
+          "translation": "you all (used for both formal and informal in PR)"
+        },
+        {
+          "term": "tutear",
+          "translation": "to address someone with tú"
+        }
+      ],
+      "category": "Pronunciation & Regional Style"
+    },
+    {
+      "id": 32,
+      "title": "Saber vs. Conocer",
+      "summary": "Two verbs for 'to know' -- facts versus familiarity.",
+      "body": "Spanish splits \"to know\" into two verbs that aren't interchangeable. Saber is for facts, information, and learned skills; conocer is for familiarity -- people, places, things you've experienced directly.\n\n Sé la respuesta. -- I know the answer. (a fact)\n Sé nadar. -- I know how to swim. (a skill -- saber + infinitive means \"know how to\")\n Conozco a tu hermano. -- I know your brother. (a person -- and notice the personal \"a\")\n Conozco San Juan bien. -- I know San Juan well. (a place, through experience)\n\nBoth verbs are irregular in the yo form only: sé (not \"sabo\") and conozco (not \"conoco\") -- everyone else conjugates them like regular -er verbs (sabes, sabe, sabemos... / conoces, conoce, conocemos...).\n\nA useful test: if you could answer with a fact or a piece of information, use saber. If the object is a person, place, or piece of art/media you're familiar with through direct exposure, use conocer. \"¿Sabes dónde está el museo?\" (Do you know where the museum is -- a fact) versus \"¿Conoces el museo?\" (Are you familiar with the museum -- have you been there).",
+      "vocab": [
+        {
+          "term": "saber (sé)",
+          "translation": "to know (facts, information, how to)"
+        },
+        {
+          "term": "conocer (conozco)",
+          "translation": "to know (people, places -- familiarity)"
+        },
+        {
+          "term": "saber + infinitivo",
+          "translation": "to know how to (do something)"
+        }
+      ],
+      "category": "Grammar Foundations"
+    },
+    {
+      "id": 33,
+      "title": "Present Perfect Tense",
+      "summary": "Talking about what has happened, using haber plus a past participle.",
+      "body": "The present perfect describes an action completed at some point up to now, without specifying exactly when -- much like English \"I have eaten\" versus the more specific \"I ate at noon.\" It's built from the helper verb haber (conjugated: he, has, ha, hemos, habéis, han) plus a past participle.\n\nRegular past participles are formed by dropping the infinitive ending and adding -ado (for -ar verbs) or -ido (for -er/-ir verbs): hablar → hablado, comer → comido, vivir → vivido.\n\n He comido ya. -- I have already eaten.\n ¿Has visto esa película? -- Have you seen that movie?\n Hemos vivido aquí diez años. -- We have lived here for ten years.\n\nA handful of past participles are irregular and worth memorizing outright: hacer → hecho (done/made), decir → dicho (said), escribir → escrito (written), ver → visto (seen), poner → puesto (put), volver → vuelto (returned), abrir → abierto (opened).\n\nWorth knowing: in everyday Caribbean Spanish, including Puerto Rico, the simple preterite (\"comí,\" I ate) is often preferred over the present perfect even where a speaker from Spain might use \"he comido\" -- both are correct, but if the present perfect sounds slightly less common in casual island conversation, that's why.",
+      "vocab": [
+        {
+          "term": "he / has / ha / hemos / han",
+          "translation": "I have / you have / he,she has / we have / they have"
+        },
+        {
+          "term": "hablado, comido, vivido",
+          "translation": "spoken, eaten, lived (regular participles)"
+        },
+        {
+          "term": "hecho",
+          "translation": "done, made (irregular participle of hacer)"
+        },
+        {
+          "term": "visto",
+          "translation": "seen (irregular participle of ver)"
+        }
+      ],
+      "category": "Verb Tenses & Moods"
+    },
+    {
+      "id": 34,
+      "title": "The Conditional Tense",
+      "summary": "Talking about what would happen.",
+      "body": "The conditional describes what would happen under some condition, and it's built the same simple way as the future tense: take the full infinitive and add one consistent set of endings, no separate stem for regular verbs.\n\n hablar → hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían\n comer → comería, comerías, comería...\n vivir → viviría, vivirías, viviría...\n\n Me gustaría viajar a España. -- I would like to travel to Spain.\n ¿Podrías ayudarme? -- Could/Would you help me? (a polite request)\n\nThe same handful of verbs with irregular future stems (covered in the future tense lesson) carry that same irregular stem into the conditional: tener → tendría, poder → podría, hacer → haría, decir → diría, salir → saldría, querer → querría.\n\nBeyond hypotheticals, the conditional is genuinely useful for softening requests and sounding more polite -- \"¿Podrías...?\" (Could you...?) or \"Me gustaría...\" (I would like...) land far more courteously than a blunt imperative or \"quiero\" (I want), the same way English favors \"could you\" over a flat command in most everyday situations.",
+      "vocab": [
+        {
+          "term": "me gustaría",
+          "translation": "I would like"
+        },
+        {
+          "term": "podría / podrías",
+          "translation": "I could / you could"
+        },
+        {
+          "term": "tendría",
+          "translation": "I would have"
+        },
+        {
+          "term": "haría",
+          "translation": "I would do/make"
+        }
+      ],
+      "category": "Verb Tenses & Moods"
+    },
+    {
+      "id": 35,
+      "title": "Subjunctive Triggers: When to Use It",
+      "summary": "The mood introduced earlier, now with the phrases that actually call for it.",
+      "body": "An earlier lesson introduced the subjunctive as the mood for doubt, wishes, and things that aren't (yet) fact. This lesson focuses on recognizing the specific triggers -- phrases that reliably call for the subjunctive in the clause that follows them.\n\nWishes and requests: querer que, esperar que, pedir que --\n Espero que tengas un buen día. -- I hope you have a good day.\n\nDoubt and denial: dudar que, no creer que, no pensar que --\n No creo que sea verdad. -- I don't think it's true.\n (Notice: \"creo que\" -- I think -- takes the indicative, since it expresses confidence; \"no creo que\" flips to subjunctive because it introduces doubt.)\n\nEmotion: alegrarse de que, es una lástima que, temer que --\n Me alegro de que estés aquí. -- I'm glad you're here.\n\nImpersonal expressions of necessity or opinion: es importante que, es necesario que, es posible que --\n Es importante que llegues a tiempo. -- It's important that you arrive on time.\n\nThe reliable pattern across all of these: the subjunctive shows up in a dependent clause (usually starting with \"que\") after a main clause expressing a wish, doubt, emotion, or necessity about someone else's action -- if there's no change of subject, Spanish typically drops \"que\" entirely and just uses an infinitive instead (\"Quiero comer,\" not \"Quiero que yo coma\").",
+      "vocab": [
+        {
+          "term": "espero que",
+          "translation": "I hope that"
+        },
+        {
+          "term": "dudo que",
+          "translation": "I doubt that"
+        },
+        {
+          "term": "es importante que",
+          "translation": "it's important that"
+        },
+        {
+          "term": "me alegro de que",
+          "translation": "I'm glad that"
+        },
+        {
+          "term": "ojalá que",
+          "translation": "hopefully, I wish that"
+        }
+      ],
+      "category": "Verb Tenses & Moods"
+    },
+    {
+      "id": 36,
+      "title": "Accent Marks and Syllable Stress",
+      "summary": "The rules behind those little marks -- and why they change meaning, not just pronunciation.",
+      "body": "Spanish stress follows a predictable default: if a word ends in a vowel, n, or s, stress falls on the second-to-last syllable (ha-BLAN); if it ends in any other consonant, stress falls on the last syllable (ha-BLAR). A written accent mark ( ́) exists specifically to flag exceptions to that default.\n\n hablo (regular -- stress follows the rule, no accent needed)\n hablé (irregular -- stress is on the last syllable of a vowel-ending word, so it needs the accent)\n fácil (irregular -- stress is on the second-to-last syllable of a consonant-ending word)\n\nBeyond pronunciation, accents also distinguish otherwise-identical words with different meanings and grammatical roles -- this is where they stop being optional style and start carrying real information:\n\n tu (your) vs. tú (you)\n el (the) vs. él (he)\n si (if) vs. sí (yes)\n que (that/which) vs. qué (what -- in questions and exclamations)\n\nGetting comfortable with stress rules pays off well beyond spelling -- it's also how you correctly pronounce a new word you've only ever seen written, since the accent (or its absence, following the default rule) tells you exactly which syllable to hit.",
+      "vocab": [
+        {
+          "term": "tu / tú",
+          "translation": "your / you"
+        },
+        {
+          "term": "el / él",
+          "translation": "the / he"
+        },
+        {
+          "term": "si / sí",
+          "translation": "if / yes"
+        },
+        {
+          "term": "que / qué",
+          "translation": "that, which / what"
+        }
+      ],
+      "category": "Pronunciation & Regional Style"
+    },
+    {
+      "id": 37,
+      "title": "Diminutives and Augmentatives",
+      "summary": "Making words smaller, bigger, or warmer -- a genuinely everyday habit in Puerto Rican Spanish.",
+      "body": "Spanish can shrink, enlarge, or add affection to a word just by changing its ending -- a feature English handles clumsily with whole extra words (\"a little house,\" \"a huge dog\") but Spanish folds directly into the noun or adjective itself.\n\nThe most common diminutive suffix is -ito/-ita (with -cito/-cita after certain endings): casa → casita (little house, or \"cozy/dear house\" depending on tone), perro → perrito (puppy), momento → momentico or momentito (just a moment). Diminutives aren't only about literal size -- they very often carry warmth or affection instead: \"mi abuelita\" (my dear grandma) says more about tone than about her actual size.\n\nPuerto Rican Spanish leans on diminutives especially heavily in everyday speech, more so than some other dialects -- \"ahora\" (now) commonly becomes \"ahorita\" to soften it or mean \"in just a bit,\" and food, people, and requests all get diminutive treatment constantly as a marker of friendliness rather than literal smallness.\n\nAugmentatives work the opposite direction and are used somewhat less often in casual speech: -ón/-ona or -ote/-ota add size or intensity -- \"un carrazo\" (a huge/impressive car), \"un problemón\" (a big problem) -- and can carry either admiration or exasperation depending entirely on tone.",
+      "vocab": [
+        {
+          "term": "-ito / -ita",
+          "translation": "diminutive suffix (small, or affectionate)"
+        },
+        {
+          "term": "ahorita",
+          "translation": "right now / in just a bit (PR usage varies by context)"
+        },
+        {
+          "term": "-ón / -ona",
+          "translation": "augmentative suffix (big, intense)"
+        },
+        {
+          "term": "poquito",
+          "translation": "a little bit (diminutive of poco)"
+        }
+      ],
+      "category": "Pronunciation & Regional Style"
+    },
+    {
+      "id": 38,
+      "title": "Weather, Seasons, and Dates",
+      "summary": "Talking about the sky, the calendar, and Puerto Rico's two real seasons.",
+      "body": "Spanish talks about weather mostly through the verb hacer (to make/do), not \"to be\" the way English does: \"Hace calor\" (It's hot -- lit. \"it makes heat\"), \"Hace sol\" (It's sunny), \"Hace viento\" (It's windy). Rain and snow get their own verbs instead: llover (to rain) → llueve (it's raining), nevar (to snow) → nieva (it's snowing).\n\nPuerto Rico's climate doesn't really have four seasons in the way a temperate-climate textbook example would -- practically speaking, the island has a wetter/hurricane season (roughly June through November) and a drier season, so \"las cuatro estaciones\" (the four seasons: primavera, verano, otoño, invierno) is more classroom vocabulary than daily conversation on the island itself, worth knowing but not necessarily how a Puerto Rican would naturally describe the year.\n\nDates in Spanish put the day before the month: \"el 15 de agosto\" (August 15th), and years are read as full numbers, not split into pairs the way English sometimes does: 2026 is \"dos mil veintiséis,\" not \"twenty twenty-six.\"\n\n ¿Qué día es hoy? -- What day is it today?\n Hoy es martes, 15 de agosto. -- Today is Tuesday, August 15th.",
+      "vocab": [
+        {
+          "term": "Hace calor / frío",
+          "translation": "It's hot / cold"
+        },
+        {
+          "term": "llueve / nieva",
+          "translation": "it's raining / it's snowing"
+        },
+        {
+          "term": "temporada de huracanes",
+          "translation": "hurricane season"
+        },
+        {
+          "term": "¿Qué día es hoy?",
+          "translation": "What day is it today?"
+        }
+      ],
+      "category": "Vocabulary & Everyday Use"
+    },
+    {
+      "id": 39,
+      "title": "Body, Health, and Emotions Vocabulary",
+      "summary": "Talking about how you feel, physically and otherwise.",
+      "body": "Body parts pair naturally with reflexive verbs and the verb doler (to hurt, which follows the same backwards structure as gustar): \"Me duele la cabeza\" (My head hurts -- lit. \"the head hurts to me\"), \"Me duelen los pies\" (My feet hurt -- plural body part, plural verb, same as gustar/gustan).\n\nFor physical states, Spanish often reaches for tener rather than estar: tener hambre (hungry), tener sed (thirsty), tener sueño (sleepy), tener frío/calor (cold/hot) -- all covered briefly in the tener lesson, worth reinforcing here alongside the vocabulary that goes with them.\n\nEmotions, by contrast, mostly use estar, since feelings are treated as temporary states rather than defining traits (recall the ser/estar distinction from earlier): \"Estoy cansado\" (I'm tired), \"Estoy feliz\" (I'm happy), \"Estoy preocupado\" (I'm worried). A few emotion words pair with sentirse (to feel, reflexive) instead: \"Me siento mal\" (I feel bad/sick).\n\n ¿Cómo te sientes? -- How do you feel?\n Me siento mejor hoy. -- I feel better today.\n\nThis vocabulary set is genuinely high-value for real conversation, since \"how are you feeling\" and \"does anything hurt\" come up constantly in daily life, well beyond a classroom setting.",
+      "vocab": [
+        {
+          "term": "doler (duele/duelen)",
+          "translation": "to hurt"
+        },
+        {
+          "term": "la cabeza / el estómago",
+          "translation": "the head / the stomach"
+        },
+        {
+          "term": "sentirse (me siento)",
+          "translation": "to feel"
+        },
+        {
+          "term": "cansado/a, preocupado/a",
+          "translation": "tired, worried"
+        },
+        {
+          "term": "tener sueño",
+          "translation": "to be sleepy"
+        }
+      ],
+      "category": "Vocabulary & Everyday Use"
+    },
+    {
+      "id": 40,
+      "title": "Puerto Rican Spanish: Sounds, Slang, and Style",
+      "summary": "A dedicated look at what makes the island's Spanish distinct -- beyond the notes sprinkled through earlier lessons.",
+      "body": "A few earlier lessons mentioned Puerto Rican pronunciation in passing; this one pulls the full picture together. The most noticeable feature is what linguists call aspiration or deletion of a final or pre-consonantal \"s\" -- \"los muchachos\" can sound like \"loh muchachoh\" or even drop the sound entirely in fast, casual speech. This is a real, systematic feature of the dialect, not sloppy speech -- formal writing and classroom Spanish keep the \"s,\" and both registers are fully correct Spanish.\n\nAnother common feature is the \"r\" at the end of a syllable softening toward an \"l\" sound for some speakers -- \"puerta\" can drift toward \"puelta\" -- though this varies by region and speaker within the island itself, so it's a tendency rather than a fixed rule.\n\nVocabulary-wise, Puerto Rican Spanish has words genuinely its own: guagua (bus, not \"autobús\"), china (an orange, the fruit -- not the country, which stays \"China\" in context), zafacón (trash can), chavos (money), mahones (jeans). \"Ay bendito\" is an all-purpose phrase covering sympathy, surprise, frustration, or comfort depending entirely on tone -- there's no single English translation that captures it.\n\nThe island's Spanish carries layers of history in its vocabulary too -- Taíno words survive in everyday use (hamaca/hammock, huracán/hurricane, both borrowed into English from Taíno by way of Spanish), and English loanwords are common given the island's history, sometimes adapted with Spanish verb endings (\"janguear,\" to hang out, from English \"hang\").",
+      "vocab": [
+        {
+          "term": "guagua",
+          "translation": "bus"
+        },
+        {
+          "term": "china",
+          "translation": "orange (the fruit)"
+        },
+        {
+          "term": "chavos",
+          "translation": "money"
+        },
+        {
+          "term": "zafacón",
+          "translation": "trash can"
+        },
+        {
+          "term": "ay bendito",
+          "translation": "all-purpose phrase: oh dear / bless it / oh wow (tone-dependent)"
+        }
+      ],
+      "category": "Pronunciation & Regional Style"
+    }
+  ]
+}

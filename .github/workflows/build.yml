@@ -1,0 +1,28 @@
+name: Build Android APK
+
+# Runs on every push to main, and can also be triggered manually from the
+# Actions tab (the "Run workflow" button) without needing a new commit.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Build with buildozer
+        uses: ArtemSBulgakov/buildozer-action@v1
+        id: buildozer
+        with:
+          command: buildozer android debug
+          buildozer_version: stable
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: sendero-apk
+          path: ${{ steps.buildozer.outputs.filename }}

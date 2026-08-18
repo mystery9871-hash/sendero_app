@@ -1,0 +1,139 @@
+{
+  "subject": "History",
+  "icon": "🏛️",
+  "lessons": [
+    {
+      "id": 2,
+      "title": "Athens and the Birth of Democracy",
+      "summary": "How one Greek city-state's experiment reshaped political thought.",
+      "body": "Around 508 BCE, the Athenian statesman Cleisthenes introduced reforms that are often cited as the starting point of democratic government -- reorganizing citizens into groups that cut across old aristocratic loyalties and giving ordinary male citizens a direct vote in the assembly.\n\nIt's worth being precise about the limits: Athenian democracy excluded women, enslaved people, and foreign residents -- the 'citizen' class eligible to vote was a minority of the population. Still, the core mechanism, that political power could come from the collective decisions of ordinary people rather than solely from inherited rule, was a genuine break from most prior political systems.\n\nThe Athenian assembly, the ekklesia, met roughly every ten days and any citizen could speak and propose legislation. Combined with jury trials decided by large citizen panels rather than a single judge, Athens built the first sustained large-scale experiment in the idea that legitimacy could come from below rather than only from above.",
+      "category": "World History"
+    },
+    {
+      "id": 3,
+      "title": "The Silk Road as a Network, Not a Road",
+      "summary": "How goods, religions, and diseases moved across Eurasia for centuries.",
+      "body": "The 'Silk Road' wasn't a single route but a shifting web of overland and maritime trade paths connecting China, Central Asia, Persia, the Arabian Peninsula, and Europe, active in various forms from roughly the 2nd century BCE through the medieval period.\n\nSilk moved west, but so did paper-making technology, gunpowder, and countless other goods. Moving east came glass, wool textiles, and horses. Just as significant as the goods was the exchange of ideas: Buddhism spread from India into Central Asia and China largely along these routes, and later Islam spread eastward along the same paths.\n\nThe network also carried less welcome cargo -- historians consider Silk Road trade networks a likely vector for the spread of the Black Death from Central Asia into Europe in the 14th century, a reminder that interconnected trade has always carried risk alongside opportunity.",
+      "category": "World History"
+    },
+    {
+      "id": 4,
+      "title": "1898 and Puerto Rico's Change of Sovereignty",
+      "summary": "How the island moved from Spanish to U.S. control in a single year.",
+      "body": "For nearly four centuries, Puerto Rico was a Spanish colonial possession. That changed abruptly in 1898: as part of the Spanish-American War, U.S. forces invaded Puerto Rico in July of that year, and the resulting Treaty of Paris (signed December 1898) transferred the island to the United States along with Guam and the Philippines.\n\nThis transition happened without a vote by the Puerto Rican population. In 1900, the Foraker Act established a civilian government on the island but withheld U.S. citizenship from its residents. That changed in 1917 with the Jones-Shafroth Act, which extended U.S. citizenship to Puerto Ricans -- notably, just before the U.S. entered World War I, after which Puerto Rican men became eligible for the draft.\n\nPuerto Rico's political status -- a U.S. territory whose residents are citizens but cannot vote in U.S. presidential elections and have no voting representation in Congress -- traces directly back to these events at the turn of the 20th century.",
+      "category": "Caribbean & Colonial History"
+    },
+    {
+      "id": 5,
+      "title": "The Printing Press and the Spread of Ideas",
+      "summary": "How one mechanical invention accelerated the Reformation and reshaped Europe.",
+      "body": "Johannes Gutenberg's development of a practical movable-type printing press around 1440 in Mainz, Germany, is often ranked among the most consequential technological shifts in history -- not because printing itself was new (woodblock printing existed earlier in East Asia), but because of the speed and cost at which it let text be reproduced in Europe.\n\nBefore the press, books were hand-copied by scribes, making them rare and expensive; a single Bible could take months to reproduce. Within decades of Gutenberg's press, printed books numbered in the millions across Europe.\n\nThe consequences were not merely commercial. Martin Luther's 1517 theses criticizing the Catholic Church spread across Europe far faster than any prior religious dissent could have, in large part because pamphlets could now be printed and distributed cheaply -- turning a regional theological dispute into the Protestant Reformation, a continent-wide upheaval, within a matter of years.",
+      "category": "World History"
+    },
+    {
+      "id": 6,
+      "title": "The Haitian Revolution: An Overlooked Turning Point",
+      "summary": "The only successful large-scale slave revolt to found a nation.",
+      "body": "Beginning in 1791, enslaved people in the French colony of Saint-Domingue rose up in what became a 13-year war, ultimately defeating French, Spanish, and British forces sent to suppress or reclaim the colony. In 1804, the revolutionaries declared the independent nation of Haiti -- the first country in the world founded by a successful revolt of enslaved people, and the second independent nation in the Americas after the United States.\n\nThe revolution's leadership included Toussaint Louverture, a former enslaved man who became a skilled military and political strategist, though he was captured by French forces before final independence was achieved; Jean-Jacques Dessalines completed the fight and declared Haiti's independence.\n\nThe revolution sent shockwaves through every slaveholding society in the Americas, and is considered a significant factor in Napoleon's decision to abandon his ambitions in the Western Hemisphere, directly contributing to the 1803 Louisiana Purchase, through which France sold its North American territory to the United States.",
+      "category": "Caribbean & Colonial History"
+    },
+    {
+      "id": 7,
+      "title": "How Empires Actually End",
+      "summary": "A recurring pattern across very different collapses.",
+      "body": "Historians studying the fall of large empires -- Rome, the Mongol Empire, the Ottoman Empire, European colonial empires in the 20th century -- have noted recurring patterns that cut across wildly different cultures and centuries.\n\nOverextension is common: an empire's borders grow faster than its ability to administer or defend them, so resources get stretched thin holding territory that produces less value than it costs to control. Economic strain often compounds this -- currency debasement, unsustainable taxation, or dependence on a single resource or trade route that later fails.\n\nInternal fragmentation matters as much as external pressure: succession crises, regional elites pursuing their own interests over the center's, or a loss of shared identity among a population that no longer sees itself as unified. Rarely does a single dramatic event topple an empire outright -- more often, external shocks (invasion, plague, economic crisis) arrive at a moment when internal cohesion has already eroded, and the combination proves fatal where either alone might not have been.",
+      "category": "World History"
+    },
+    {
+      "title": "The Roman Republic to Empire",
+      "summary": "How Rome shifted from a citizen-governed republic to rule by emperors.",
+      "body": "Rome began as a monarchy, expelled its kings around 509 BCE, and built a republic governed by elected officials (consuls, senators) with checks designed specifically to prevent any single person from accumulating unchecked power -- a structural memory of the monarchy they'd just overthrown.\n\nOver centuries, though, the republic's institutions strained under the pressure of a rapidly expanding territory, deep wealth inequality, and increasingly powerful individual generals whose armies were loyal to them personally rather than to the state. Civil wars in the 1st century BCE, culminating in the rise of Julius Caesar and later his adopted heir Octavian, effectively ended genuine republican governance even while the formal institutions were kept in place as a facade.\n\nOctavian, taking the name Augustus in 27 BCE, became what historians consider Rome's first emperor -- while carefully avoiding the title 'king,' which still carried deep stigma from the original monarchy. The transition illustrates a recurring historical pattern: republics rarely collapse in a single dramatic moment: institutions can persist in name for generations after the actual balance of power has already shifted.",
+      "id": 8,
+      "category": "World History"
+    },
+    {
+      "title": "The Islamic Golden Age",
+      "summary": "A period of major scientific and intellectual advancement across the Islamic world.",
+      "body": "Roughly from the 8th to the 14th century, cities across the Islamic world -- Baghdad, Cairo, Cordoba, Damascus -- became major centers of scholarship, drawing on and significantly extending Greek, Persian, and Indian knowledge, while producing substantial original work across mathematics, medicine, astronomy, and philosophy.\n\nBaghdad's House of Wisdom, established under the Abbasid Caliphate, became a hub for translating and building upon classical texts. The mathematician al-Khwarizmi's work gave rise to the term 'algebra' (from the Arabic al-jabr) and helped popularize the numeral system -- often called Arabic numerals in the West -- that eventually replaced Roman numerals across Europe.\n\nMedicine advanced substantially through scholars like Ibn Sina (known in Latin as Avicenna), whose medical encyclopedia remained a standard reference in European universities for centuries. Much of the classical Greek philosophical and scientific corpus that later fueled the European Renaissance survived specifically because it had been preserved, translated, and expanded upon in the Islamic world during a period when much of that material had been lost or neglected elsewhere.",
+      "id": 9,
+      "category": "World History"
+    },
+    {
+      "title": "The Mongol Empire and Global Exchange",
+      "summary": "The largest contiguous land empire in history, and its unexpected role connecting the world.",
+      "body": "Under Genghis Khan and his successors, the Mongol Empire expanded in the 13th century to become the largest contiguous land empire ever assembled, stretching from Korea to Eastern Europe at its peak. Its formation involved immense violence and destruction, particularly during the initial conquests.\n\nOnce established, however, the empire produced an unusual side effect: the 'Pax Mongolica,' a period where a single political structure controlled enough of the Silk Road's overland route that trade and travel across Eurasia became notably safer and more predictable than before. Merchants, missionaries, and travelers -- Marco Polo among the most famous -- crossed distances that would have been far riskier under fragmented, competing regional powers.\n\nThis connectivity carried both benefit and catastrophe: increased trade brought technology, goods, and ideas across the continent faster than before, but the same trade routes are considered a major vector for the spread of the Black Death from Asia into Europe in the 14th century -- one of history's clearer examples of how infrastructure built for one purpose (trade, conquest) can carry unintended consequences at a massive scale.",
+      "id": 10,
+      "category": "World History"
+    },
+    {
+      "title": "The Renaissance: Rediscovery and Reinvention",
+      "summary": "A period of renewed interest in classical learning that reshaped European art and thought.",
+      "body": "Beginning in Italy around the 14th century and spreading across Europe over the following two centuries, the Renaissance ('rebirth') marked a renewed engagement with classical Greek and Roman texts, partly reintroduced to Western Europe through contact with the Islamic world and Byzantine scholars.\n\nThe period is often remembered for its art -- Leonardo da Vinci, Michelangelo, Raphael -- but the underlying shift was broader: a growing emphasis on humanism, the idea that human experience, reason, and individual achievement deserved serious study, not only as a path to understanding God but as valuable in their own right. This didn't mean a rejection of religion, but it did mean expanding what counted as worthy subject matter for serious inquiry.\n\nThe Renaissance also overlapped with major technical shifts -- the printing press accelerated the spread of these ideas, and advances in anatomy, optics, and mathematics fed directly into more technically accurate, three-dimensional art using new techniques like linear perspective. The period set intellectual groundwork that fed directly into the Scientific Revolution that followed in the 16th and 17th centuries.",
+      "id": 11,
+      "category": "World History"
+    },
+    {
+      "title": "The Age of Exploration and Its Costs",
+      "summary": "European maritime expansion, and the immense human cost that accompanied it.",
+      "body": "From the 15th through 17th centuries, European powers -- first Portugal and Spain, later the Netherlands, France, and England -- launched ocean voyages seeking new trade routes to Asia, driven substantially by the desire to bypass overland Silk Road middlemen and access spices, silk, and other goods more directly.\n\nColumbus's 1492 voyage, intended to reach Asia by sailing west, instead reached the Caribbean, opening sustained European contact with the Americas. What followed was a rapid, devastating transformation for indigenous populations across the hemisphere -- disease (to which indigenous peoples had no prior immunity), forced labor systems, and violent conquest caused population collapse on a scale historians still debate the exact magnitude of, with some estimates suggesting tens of millions of deaths across the Americas within a century or two of contact.\n\nThe same era established the transatlantic economic networks that would soon include the forced transport of enslaved Africans to the Americas. 'Age of Exploration' is a framing that centers the European perspective; from the perspective of the Taíno, Aztec, Inca, and countless other indigenous societies, the same period is more accurately described as the beginning of conquest and, in many regions, catastrophic loss.",
+      "id": 12,
+      "category": "Caribbean & Colonial History"
+    },
+    {
+      "title": "The Industrial Revolution",
+      "summary": "The shift from human and animal power to mechanized production.",
+      "body": "Beginning in Britain in the mid-18th century and spreading over the following century, the Industrial Revolution marked a fundamental shift in how goods were produced -- from small-scale, hand-crafted work to mechanized manufacturing powered first by water and then increasingly by steam.\n\nThe steam engine, refined significantly by James Watt in the 1770s, became the era's defining technology, powering everything from textile mills to, later, railroads and steamships -- radically compressing the time and cost of moving goods and people. Textile production was an early flashpoint: mechanized spinning and weaving devastated traditional hand-craft livelihoods while dramatically increasing output.\n\nThe social costs were severe and well documented: dangerous factory conditions, extensive child labor, rapid and often squalid urbanization as populations moved from rural areas toward industrial cities seeking work. These conditions eventually fueled major social and political responses -- labor movements, early workplace safety regulation, and new political philosophies (including socialism) that directly analyzed and critiqued industrial capitalism's effects on workers. The technological gains and human costs of this period are, in most serious historical accounts, treated as inseparable rather than as a simple story of progress.",
+      "id": 13,
+      "category": "World History"
+    },
+    {
+      "title": "The Transatlantic Slave Trade",
+      "summary": "The forced transport of millions of enslaved Africans across the Atlantic.",
+      "body": "Between the 16th and 19th centuries, an estimated 12.5 million enslaved Africans were forcibly transported across the Atlantic Ocean to the Americas, primarily to labor on plantations producing sugar, tobacco, cotton, and other export goods for European markets. Roughly 1.8 million did not survive the crossing itself, known as the Middle Passage, due to the horrific conditions aboard slave ships.\n\nThe trade formed one leg of a larger 'triangular trade' network: European goods were shipped to West Africa in exchange for enslaved people, who were transported to the Americas and sold, with the resulting raw materials shipped back to Europe -- a system that generated enormous wealth for European and American merchants, plantation owners, and financial institutions built directly on forced labor.\n\nPuerto Rico, like much of the Caribbean, was directly shaped by this system -- enslaved Africans were forcibly brought to the island to work sugar plantations under Spanish colonial rule, and their cultural influence remains deeply embedded in Puerto Rican music, language, food, and religious practice, including in traditions like bomba, which developed specifically among enslaved and free Afro-Puerto Rican communities as a means of expression, community, and resistance.",
+      "id": 14,
+      "category": "Caribbean & Colonial History"
+    },
+    {
+      "title": "Ancient Egypt and the Nile",
+      "summary": "How a single river shaped one of history's longest-lasting civilizations.",
+      "body": "Ancient Egyptian civilization, developing along the Nile River from around 3100 BCE, owed much of its stability and longevity to the river's remarkably predictable annual flooding, which deposited nutrient-rich silt across farmland every year, allowing for reliable, abundant agriculture in an otherwise arid region.\n\nThis predictability shaped Egyptian religious and political life directly -- the flooding was closely tracked, tied to religious ritual, and the pharaoh's legitimacy was partly bound up with maintaining cosmic and agricultural order (ma'at). Large-scale coordinated labor, made possible by reliable food surplus, enabled monumental construction projects, most famously the pyramids at Giza, built as tombs for pharaohs during the Old Kingdom period.\n\nEgyptian writing, hieroglyphics, remained undecipherable to modern scholars until the 1799 discovery of the Rosetta Stone, which contained the same text in hieroglyphics, Demotic script, and Greek -- providing the key that allowed Jean-François Champollion to finally crack the system in the 1820s, reopening thousands of years of previously unreadable Egyptian text to modern historians.",
+      "id": 15,
+      "category": "World History"
+    },
+    {
+      "title": "The Fall of Constantinople",
+      "summary": "The 1453 siege that marked the end of the Byzantine Empire.",
+      "body": "Constantinople, founded as the eastern capital of the Roman Empire by Constantine in 330 CE, survived as the capital of the Byzantine Empire for over a thousand years after Rome itself fell in the West -- protected in large part by its formidable land and sea walls, which had withstood numerous prior sieges.\n\nIn 1453, Ottoman forces under Sultan Mehmed II besieged the city with a decisive technological advantage: massive cannons capable of breaching walls that had held for centuries. After weeks of siege, the city fell on May 29, 1453, ending the Byzantine Empire and marking, in the view of many historians, a symbolic close to the medieval period in Europe.\n\nThe fall had ripple effects beyond the immediate region: Ottoman control over Constantinople (renamed Istanbul) gave them control of key overland trade routes to Asia, which is often cited as one of the pressures pushing European powers toward finding alternative sea routes to Asia -- directly connected to the maritime exploration that led, among other things, to Columbus's voyages less than four decades later.",
+      "id": 16,
+      "category": "World History"
+    },
+    {
+      "title": "El Grito de Lares",
+      "summary": "Puerto Rico's most significant 19th-century uprising against Spanish colonial rule.",
+      "body": "On September 23, 1868, a group of Puerto Rican revolutionaries launched an armed uprising in the mountain town of Lares, declaring the island's independence from Spain and briefly establishing a provisional government. The uprising, known as El Grito de Lares (the Cry of Lares), was planned in part from exile -- key organizers, including Ramón Emeterio Betances, had been forced to flee the island for their political activities and coordinated the rebellion partly from the Dominican Republic and other locations.\n\nThe rebellion itself was suppressed by Spanish colonial forces within about a day, and most of its leaders were captured, though many were later granted amnesty rather than executed. Despite its short duration and military failure, El Grito de Lares became a lasting symbol of Puerto Rican resistance to colonial rule and a foundational reference point in the island's independence movement.\n\nRamón Emeterio Betances, who also worked as a physician and was a vocal abolitionist, is often referred to as 'the father of the Puerto Rican homeland' for his role in the uprising and his broader political writing. September 23 remains observed in Puerto Rico as a day commemorating the uprising's legacy.",
+      "id": 17,
+      "category": "Caribbean & Colonial History"
+    },
+    {
+      "title": "Decolonization in the 20th Century",
+      "summary": "The rapid dismantling of European colonial empires after World War II.",
+      "body": "At the start of the 20th century, a handful of European powers controlled the majority of the world's landmass through colonial empires. By the century's end, that map had transformed almost entirely -- one of the most significant political shifts in modern history, largely concentrated in the decades following World War II.\n\nSeveral forces drove this shift: European powers emerged from the war economically weakened and less able to maintain distant colonial control; independence movements within colonized nations, often built over decades, gained momentum and international legitimacy; and the postwar establishment of the United Nations created a global forum where the principle of self-determination gained increasing moral and political weight.\n\nIndia's 1947 independence from Britain is often treated as an early landmark, followed by a wave of African independence movements through the 1950s and 60s -- 1960 alone saw seventeen African nations gain independence, sometimes called the 'Year of Africa.' Decolonization was rarely a clean or peaceful process -- many transitions involved significant violence, and the arbitrary borders drawn during the colonial period, often ignoring existing ethnic and political boundaries, contributed to conflicts that in some regions persist today.",
+      "id": 18,
+      "category": "Caribbean & Colonial History"
+    },
+    {
+      "title": "The Cold War in Brief",
+      "summary": "Decades of global rivalry between the United States and the Soviet Union, without direct war between them.",
+      "body": "Following World War II, the alliance between the United States and the Soviet Union collapsed into a decades-long rivalry rooted in fundamentally opposed economic and political systems -- capitalism and liberal democracy versus communism and one-party state control. The conflict was 'cold' in the specific sense that the two superpowers never fought each other directly, largely due to the deterrent effect of nuclear weapons held by both sides.\n\nInstead, the rivalry played out through proxy conflicts (Korea, Vietnam, Afghanistan), an intense arms and space race, and ideological competition for influence across the decolonizing world, with both superpowers backing opposing sides in numerous regional conflicts and political struggles.\n\nThe Cuban Missile Crisis of 1962, when the Soviet placement of nuclear missiles in Cuba brought the two powers to the brink of direct nuclear conflict, is often considered the closest the Cold War came to escalating into full war. The period eventually wound down through a combination of economic strain within the Soviet system, political reform under Mikhail Gorbachev, and the collapse of Soviet-aligned governments across Eastern Europe, culminating in the dissolution of the Soviet Union itself in 1991.",
+      "id": 19,
+      "category": "World History"
+    },
+    {
+      "title": "Ancient Mesopotamia and the Birth of Writing",
+      "summary": "The region often credited with producing the earliest known writing systems.",
+      "body": "Mesopotamia, the region between the Tigris and Euphrates rivers in modern-day Iraq, is often called the 'cradle of civilization' -- home to some of the earliest cities, states, and, significantly, the earliest known writing system, cuneiform, developed by the Sumerians around 3400-3200 BCE.\n\nCuneiform began as a practical accounting tool rather than a literary one -- early tablets record transactions, inventories, and administrative records for temples and growing city-states, reflecting the increasingly complex economic organization that came with large settled populations and organized agriculture. Writing for literature, law, and religious text developed later, building on a system originally created to track grain and livestock.\n\nOne of the most significant surviving texts is the Code of Hammurabi, a Babylonian legal code from around 1754 BCE, inscribed on a large stone stele and containing nearly 300 laws covering topics from property disputes to family law -- one of the earliest and most complete surviving legal codes, offering a detailed window into how an ancient society structured justice, obligation, and punishment.",
+      "id": 20,
+      "category": "World History"
+    }
+  ]
+}
