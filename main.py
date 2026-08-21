@@ -243,9 +243,14 @@ def _init_tts():
 
 def speak(text):
     try:
+        from jnius import autoclass
+        Bundle = autoclass("android.os.Bundle")
         engine = _init_tts()
         # QUEUE_FLUSH = 0: stop whatever's playing and speak this instead.
-        engine.speak(text, 0, None, None)
+        # The 4-arg speak() overload needs a real Bundle and a real String —
+        # passing None for either makes pyjnius unable to tell it apart from
+        # the older 3-arg overload, which fails with a JavaException.
+        engine.speak(text, 0, Bundle(), "sendero_tts")
     except Exception as e:
         import traceback
         traceback.print_exc()  # goes to logcat under the "python" tag
