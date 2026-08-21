@@ -285,24 +285,33 @@ def _toast(msg):
 # Shared UI helpers
 # ---------------------------------------------------------------------------
 
-BG = hx("#1e2124")
-CARD = hx("#2a2e33")
-ACCENT = hx("#6fbf73")
-TEXT = hx("#eceff1")
-MUTED = hx("#9aa0a6")
+# Matches the desktop app's warm cream/parchment theme, so the two apps
+# feel like the same product. Values pulled directly from the desktop
+# app's own palette (BG, PANEL, FOREST, GOLD, TEXT_DARK, TEXT_MUTED).
+BG = hx("#f5f1e6")          # cream page background
+CARD = hx("#ece4d3")        # slightly darker cream, for cards/rows
+BORDER = hx("#ddd2b8")      # tan divider/border tone — distinct from CARD
+TEXT = hx("#2b2b23")        # warm near-black — primary reading text
+MUTED = hx("#5c5749")       # warm muted brown-gray — secondary text
+HEADING = hx("#2f5233")     # deep forest green — titles and headings
+HEADING_DARK = hx("#203a24")  # darker forest green — top bar background
+ACCENT = hx("#b8912e")      # gold — primary buttons (matches desktop)
+ACCENT_TEXT = hx("#fffdf7")  # near-white — text/icons on dark or gold backgrounds
+DANGER = hx("#b23b3b")      # red — delete/error actions
 
 # One accent color per subject, assigned deterministically by name so it's
 # stable across sessions and works for subjects added later too — no need
-# to store a color choice anywhere.
+# to store a color choice anywhere. Kept dark/saturated enough to read
+# clearly as text or a small stripe against the cream background.
 SUBJECT_PALETTE = [
-    hx("#e0954f"),  # warm orange
-    hx("#5fa8d3"),  # sky blue
-    hx("#c96a6a"),  # deep red/rose
-    hx("#6fbf73"),  # forest green
-    hx("#a67fd6"),  # purple
-    hx("#d6b656"),  # gold
-    hx("#4fb8a8"),  # teal
-    hx("#d67fb0"),  # pink
+    hx("#2f5233"),  # forest green
+    hx("#b8912e"),  # gold
+    hx("#6b4c35"),  # brown
+    hx("#8b3a3a"),  # deep red/rust
+    hx("#3d6b63"),  # muted teal
+    hx("#6b3d5c"),  # plum
+    hx("#4a5b6b"),  # slate blue
+    hx("#8f6b1f"),  # ochre/amber
 ]
 
 
@@ -325,6 +334,18 @@ def attach_rounded_bg(widget, color, radius=dp(10)):
     return widget
 
 
+def attach_rect_bg(widget, color):
+    """Same as attach_rounded_bg but square corners — used for full-width
+    bars like the TopBar, where rounding would look out of place."""
+    from kivy.graphics import Color, Rectangle
+    with widget.canvas.before:
+        Color(*color)
+        widget._bg_rect = Rectangle(pos=widget.pos, size=widget.size)
+    widget.bind(pos=lambda w, *_: setattr(w._bg_rect, "pos", w.pos),
+                size=lambda w, *_: setattr(w._bg_rect, "size", w.size))
+    return widget
+
+
 def category_chip(text, color):
     """A small pill-style label used for category headers, tinted with the
     subject's accent color instead of plain gray caption text."""
@@ -332,7 +353,7 @@ def category_chip(text, color):
     chip.width = dp(14) + len(text) * dp(7)
     tinted = (color[0], color[1], color[2], 0.18)
     attach_rounded_bg(chip, tinted, radius=dp(13))
-    lbl = Label(text=text.upper(), color=color, font_size="11sp", bold=True)
+    lbl = Label(text=text.upper(), color=color, font_size="13sp", bold=True)
     chip.add_widget(lbl)
     wrap = BoxLayout(size_hint_y=None, height=dp(34), padding=(0, dp(4)))
     wrap.add_widget(chip)
@@ -349,7 +370,7 @@ class ProgressRing(BoxLayout):
         self._maximum = max(maximum, 1)
         self._color = color
         pct = int(round(100 * value / self._maximum))
-        self.label = Label(text=f"{pct}%", font_size="11sp", bold=True, color=TEXT)
+        self.label = Label(text=f"{pct}%", font_size="12sp", bold=True, color=TEXT)
         self.add_widget(self.label)
         self.bind(pos=self._redraw, size=self._redraw)
         self._redraw()
@@ -361,23 +382,27 @@ class ProgressRing(BoxLayout):
         cx, cy = self.center_x, self.center_y
         pct = self._value / self._maximum
         with self.canvas.before:
-            Color(*CARD)
+            Color(*BORDER)
             Line(circle=(cx, cy, r), width=dp(3))
             if pct > 0:
                 Color(*self._color)
-                Line(circle=(cx, cy, r, 90 - 360 * pct, 90), width=dp(3), cap="round")
+                Line(circle=(cx, cy, r, 90 - 360 * pct, 90), width=dp(3.5), cap="round")
 
 
 class TopBar(BoxLayout):
+    """Dark forest-green bar, mirroring the desktop app's sidebar color,
+    so the two apps read as the same product even though mobile uses a
+    top bar instead of a side panel."""
     def __init__(self, title, on_back=None, right_widget=None, **kw):
-        super().__init__(orientation="horizontal", size_hint_y=None, height=dp(52),
+        super().__init__(orientation="horizontal", size_hint_y=None, height=dp(56),
                           padding=(dp(8), 0), spacing=dp(8), **kw)
+        attach_rect_bg(self, HEADING_DARK)
         if on_back:
-            back = Button(text="< Back", size_hint=(None, None), size=(dp(72), dp(44)),
-                           background_color=CARD, color=TEXT)
+            back = Button(text="< Back", size_hint=(None, None), size=(dp(76), dp(44)),
+                           background_color=HEADING_DARK, color=ACCENT_TEXT, font_size="14sp")
             back.bind(on_release=on_back)
             self.add_widget(back)
-        lbl = Label(text=title, bold=True, font_size="18sp", color=TEXT, halign="left",
+        lbl = Label(text=title, bold=True, font_size="20sp", color=ACCENT_TEXT, halign="left",
                      valign="middle")
         lbl.bind(size=lambda w, *_: setattr(w, "text_size", w.size))
         self.add_widget(lbl)
@@ -386,8 +411,8 @@ class TopBar(BoxLayout):
 
 
 def section_label(text, **kw):
-    lbl = Label(text=text, color=MUTED, font_size="13sp", size_hint_y=None,
-                height=dp(28), halign="left", valign="middle", bold=True, **kw)
+    lbl = Label(text=text, color=MUTED, font_size="14sp", size_hint_y=None,
+                height=dp(30), halign="left", valign="middle", bold=True, **kw)
     lbl.bind(size=lambda w, *_: setattr(w, "text_size", w.size))
     return lbl
 
@@ -414,8 +439,8 @@ class DashboardScreen(Screen):
         app = App.get_running_app()
         self.clear_widgets()
         root = BoxLayout(orientation="vertical")
-        new_subj_btn = Button(text="+ New Subject", size_hint=(None, None), size=(dp(128), dp(44)),
-                               background_color=ACCENT, color=hx("#0b1f0c"), font_size="12sp")
+        new_subj_btn = Button(text="+ New Subject", size_hint=(None, None), size=(dp(140), dp(44)),
+                               background_color=ACCENT, color=ACCENT_TEXT, font_size="13sp", bold=True)
         new_subj_btn.bind(on_release=lambda b: ImportContentPopup(
             on_done=lambda name: self.build()).open())
         root.add_widget(TopBar("Sendero", right_widget=new_subj_btn))
@@ -453,13 +478,13 @@ class DashboardScreen(Screen):
 
             info = BoxLayout(orientation="vertical", spacing=dp(4))
             head = BoxLayout(size_hint_y=None, height=dp(24))
-            head.add_widget(wrapped_label(name, bold=True, font_size="16sp"))
+            head.add_widget(wrapped_label(name, bold=True, font_size="18sp"))
             head.add_widget(wrapped_label(f"{done}/{total}", color=MUTED, halign="right",
                                            size_hint_x=None, width=dp(60)))
             info.add_widget(head)
 
             btn = Button(text="Continue", size_hint_y=None, height=dp(32),
-                         background_color=color, color=hx("#101010"), font_size="12sp")
+                         background_color=color, color=ACCENT_TEXT, font_size="14sp", bold=True)
             btn.bind(on_release=lambda b, n=name: app.open_subject(n))
             info.add_widget(btn)
 
@@ -491,7 +516,7 @@ class DashboardScreen(Screen):
 # ---------------------------------------------------------------------------
 
 def form_label(text):
-    return wrapped_label(text, color=MUTED, font_size="12sp", height=dp(20))
+    return wrapped_label(text, color=MUTED, font_size="13sp", height=dp(22))
 
 
 def form_input(multiline=False, height=dp(40), hint_text=""):
@@ -502,12 +527,26 @@ def form_input(multiline=False, height=dp(40), hint_text=""):
     return ti
 
 
-class ConfirmPopup(Popup):
+class ThemedPopup(Popup):
+    """Base class that applies the app's cream theme to Kivy's Popup chrome
+    itself (background, title bar, separator) — without this, popups fall
+    back to Kivy's stock dark styling, which clashed badly once the rest
+    of the app switched to a light theme."""
+    def __init__(self, **kw):
+        kw.setdefault("background", "")
+        kw.setdefault("background_color", BG)
+        kw.setdefault("title_color", HEADING)
+        kw.setdefault("title_size", "17sp")
+        kw.setdefault("separator_color", BORDER)
+        super().__init__(**kw)
+
+
+class ConfirmPopup(ThemedPopup):
     def __init__(self, message, on_confirm, title="Confirm", **kw):
         col = BoxLayout(orientation="vertical", padding=dp(16), spacing=dp(12))
         col.add_widget(wrapped_label(message, height=dp(70)))
         row = BoxLayout(size_hint_y=None, height=dp(48), spacing=dp(8))
-        yes_btn = Button(text="Delete", background_color=hx("#b23b3b"), color=TEXT)
+        yes_btn = Button(text="Delete", background_color=DANGER, color=ACCENT_TEXT)
         no_btn = Button(text="Cancel", background_color=CARD, color=TEXT)
         row.add_widget(yes_btn)
         row.add_widget(no_btn)
@@ -517,7 +556,7 @@ class ConfirmPopup(Popup):
         no_btn.bind(on_release=lambda b: self.dismiss())
 
 
-class AddLessonPopup(Popup):
+class AddLessonPopup(ThemedPopup):
     def __init__(self, subject_name, on_saved, **kw):
         self.subject_name = subject_name
         self.on_saved = on_saved
@@ -549,14 +588,14 @@ class AddLessonPopup(Popup):
                                     hint_text="Buenos días - Good morning")
         col.add_widget(self.vocab_in)
 
-        self.error_lbl = wrapped_label("", color=hx("#e07a7a"), height=dp(20))
+        self.error_lbl = wrapped_label("", color=DANGER, height=dp(20))
         col.add_widget(self.error_lbl)
 
         scroll.add_widget(col)
         outer.add_widget(scroll)
 
         btn_row = BoxLayout(size_hint_y=None, height=dp(48), spacing=dp(8))
-        save_btn = Button(text="Save Lesson", background_color=ACCENT, color=hx("#0b1f0c"))
+        save_btn = Button(text="Save Lesson", background_color=ACCENT, color=ACCENT_TEXT)
         cancel_btn = Button(text="Cancel", background_color=CARD, color=TEXT)
         btn_row.add_widget(save_btn)
         btn_row.add_widget(cancel_btn)
@@ -600,7 +639,7 @@ class AddLessonPopup(Popup):
         self.on_saved()
 
 
-class MergeSubjectsPopup(Popup):
+class MergeSubjectsPopup(ThemedPopup):
     def __init__(self, source_name, on_merged, **kw):
         app = App.get_running_app()
         others = [n for n in app.subjects if n != source_name]
@@ -625,7 +664,7 @@ class MergeSubjectsPopup(Popup):
         col.add_widget(spinner)
 
         row = BoxLayout(size_hint_y=None, height=dp(48), spacing=dp(8))
-        merge_btn = Button(text="Merge", background_color=ACCENT, color=hx("#0b1f0c"))
+        merge_btn = Button(text="Merge", background_color=ACCENT, color=ACCENT_TEXT)
         cancel_btn = Button(text="Cancel", background_color=CARD, color=TEXT)
         row.add_widget(merge_btn)
         row.add_widget(cancel_btn)
@@ -666,7 +705,7 @@ class MergeSubjectsPopup(Popup):
         on_merged()
 
 
-class TranslatePopup(Popup):
+class TranslatePopup(ThemedPopup):
     def __init__(self, subject_name, lesson_id, on_translated, **kw):
         self.subject_name = subject_name
         self.lesson_id = lesson_id
@@ -685,7 +724,7 @@ class TranslatePopup(Popup):
         col.add_widget(self.status_lbl)
 
         row = BoxLayout(size_hint_y=None, height=dp(48), spacing=dp(8))
-        self.translate_btn = Button(text="Translate", background_color=ACCENT, color=hx("#0b1f0c"))
+        self.translate_btn = Button(text="Translate", background_color=ACCENT, color=ACCENT_TEXT)
         cancel_btn = Button(text="Cancel", background_color=CARD, color=TEXT)
         row.add_widget(self.translate_btn)
         row.add_widget(cancel_btn)
@@ -732,7 +771,7 @@ class TranslatePopup(Popup):
         run_in_thread(work, done)
 
 
-class ImportContentPopup(Popup):
+class ImportContentPopup(ThemedPopup):
     """Search Wikipedia, Project Gutenberg / Open Library, the Internet
     Archive, Library of Congress newspapers, and Google News for a topic,
     and add whatever's found as new lessons — either into an existing
@@ -772,7 +811,7 @@ class ImportContentPopup(Popup):
 
         translate_row = BoxLayout(size_hint_y=None, height=dp(36), spacing=dp(8))
         self.translate_check = Button(text="Translate non-English books ✓" ,
-                                       background_color=CARD, color=MUTED, font_size="12sp")
+                                       background_color=CARD, color=MUTED, font_size="13sp")
         self._translate_on = False
         self.translate_check.bind(on_release=self._toggle_translate)
         translate_row.add_widget(self.translate_check)
@@ -782,14 +821,14 @@ class ImportContentPopup(Popup):
         self.status_lbl = wrapped_label(
             "Pulls from Wikipedia, Project Gutenberg / Open Library, the Internet Archive, "
             "Library of Congress newspapers, and Google News — whatever's found for each "
-            "topic gets added.", color=MUTED, height=dp(50), font_size="12sp")
+            "topic gets added.", color=MUTED, height=dp(58), font_size="13sp")
         col.add_widget(self.status_lbl)
 
         scroll.add_widget(col)
         outer.add_widget(scroll)
 
         btn_row = BoxLayout(size_hint_y=None, height=dp(48), spacing=dp(8))
-        self.fetch_btn = Button(text="Fetch Lessons", background_color=ACCENT, color=hx("#0b1f0c"))
+        self.fetch_btn = Button(text="Fetch Lessons", background_color=ACCENT, color=ACCENT_TEXT)
         close_btn = Button(text="Close", background_color=CARD, color=TEXT)
         self.fetch_btn.bind(on_release=lambda b: self._start_fetch())
         close_btn.bind(on_release=lambda b: self.dismiss())
@@ -910,8 +949,8 @@ class SubjectScreen(Screen):
         subj = app.subjects.get(self.subject_name)
         root = BoxLayout(orientation="vertical")
 
-        combined_btn = Button(text="Combined", size_hint=(None, None), size=(dp(96), dp(44)),
-                               background_color=CARD, color=TEXT)
+        combined_btn = Button(text="Combined", size_hint=(None, None), size=(dp(100), dp(44)),
+                               background_color=CARD, color=TEXT, font_size="13sp")
         combined_btn.bind(on_release=lambda b: app.open_combined(self.subject_name))
         root.add_widget(TopBar(self.subject_name,
                                 on_back=lambda b: app.go_dashboard(),
@@ -928,10 +967,10 @@ class SubjectScreen(Screen):
         if not lessons:
             col.add_widget(Widget(size_hint_y=None, height=dp(40)))
             col.add_widget(wrapped_label(
-                "No lessons yet in this subject.", font_size="16sp", color=MUTED))
+                "No lessons yet in this subject.", font_size="17sp", color=MUTED))
             col.add_widget(wrapped_label(
                 "Tap \"+ Add Lesson\" below to write your first one.", color=MUTED,
-                font_size="13sp"))
+                font_size="14sp"))
 
         # group by category, preserving first-seen order; uncategorized first (no header)
         categories = []
@@ -956,9 +995,9 @@ class SubjectScreen(Screen):
                 row.bind(pos=lambda w, *_: setattr(w._stripe, "pos", w.pos),
                           size=lambda w, *_: setattr(w._stripe, "size", (dp(4), w.height)))
 
-                check = Label(text=mark, color=color, bold=True, font_size="16sp",
+                check = Label(text=mark, color=color, bold=True, font_size="18sp",
                               size_hint_x=None, width=dp(34))
-                title_lbl = wrapped_label(lesson["title"], font_size="14sp", height=dp(56),
+                title_lbl = wrapped_label(lesson["title"], font_size="16sp", height=dp(60),
                                            valign="middle")
                 title_lbl.bind(size=lambda w, *_: setattr(w, "text_size", (w.width, w.height)))
                 row.add_widget(check)
@@ -975,10 +1014,10 @@ class SubjectScreen(Screen):
                              spacing=dp(6), padding=(dp(12), dp(6)))
         row1 = BoxLayout(size_hint_y=None, height=dp(44), spacing=dp(8))
         row2 = BoxLayout(size_hint_y=None, height=dp(44), spacing=dp(8))
-        add_btn = Button(text="+ Add Lesson", background_color=ACCENT, color=hx("#0b1f0c"))
-        import_btn = Button(text="Import Content", background_color=color, color=hx("#101010"))
+        add_btn = Button(text="+ Add Lesson", background_color=ACCENT, color=ACCENT_TEXT)
+        import_btn = Button(text="Import Content", background_color=color, color=ACCENT_TEXT)
         merge_btn = Button(text="Merge", background_color=CARD, color=TEXT)
-        delete_btn = Button(text="Delete Subject", background_color=CARD, color=hx("#e07a7a"))
+        delete_btn = Button(text="Delete Subject", background_color=CARD, color=DANGER)
         add_btn.bind(on_release=lambda b: AddLessonPopup(
             self.subject_name, on_saved=self.build).open())
         import_btn.bind(on_release=lambda b: ImportContentPopup(
@@ -1041,13 +1080,13 @@ class LessonScreen(Screen):
         col = BoxLayout(orientation="vertical", size_hint_y=None, padding=dp(14), spacing=dp(10))
         col.bind(minimum_height=col.setter("height"))
 
-        col.add_widget(wrapped_label(lesson["title"], bold=True, font_size="20sp"))
+        col.add_widget(wrapped_label(lesson["title"], bold=True, font_size="23sp", color=HEADING))
         col.add_widget(wrapped_label(lesson.get("summary", ""), color=MUTED, italic=True,
-                                      font_size="14sp"))
+                                      font_size="16sp"))
 
         listen_row = BoxLayout(size_hint_y=None, height=dp(44), spacing=dp(8))
         listen_btn = Button(text="Listen to Lesson", background_color=ACCENT,
-                             color=hx("#0b1f0c"))
+                             color=ACCENT_TEXT)
         stop_btn = Button(text="Stop", size_hint_x=None, width=dp(80),
                            background_color=CARD, color=TEXT)
         full_text = lesson["title"] + ". " + lesson.get("summary", "") + " " + lesson.get("body", "")
@@ -1057,7 +1096,7 @@ class LessonScreen(Screen):
         listen_row.add_widget(stop_btn)
         col.add_widget(listen_row)
 
-        col.add_widget(wrapped_label(lesson.get("body", ""), font_size="15sp"))
+        col.add_widget(wrapped_label(lesson.get("body", ""), font_size="17sp"))
 
         vocab = lesson.get("vocab") or []
         if vocab:
@@ -1067,7 +1106,7 @@ class LessonScreen(Screen):
             for v in vocab:
                 vrow = BoxLayout(size_hint_y=None, height=dp(40), spacing=dp(8))
                 vrow.add_widget(wrapped_label(f"{v.get('term','')} - {v.get('translation','')}",
-                                               font_size="14sp"))
+                                               font_size="16sp"))
                 spk = Button(text="Play", size_hint=(None, None), size=(dp(56), dp(40)),
                              background_color=CARD, color=TEXT)
                 spk.bind(on_release=lambda b, t=v.get("term", ""): speak(t))
@@ -1078,7 +1117,7 @@ class LessonScreen(Screen):
         # attribution, if this lesson was imported
         if lesson.get("source"):
             col.add_widget(wrapped_label(f"Source: {lesson['source']}", color=MUTED,
-                                          font_size="11sp"))
+                                          font_size="12sp"))
 
         # Mark complete
         is_done = app.progress.is_complete(self.subject_name, lesson["id"])
@@ -1086,7 +1125,7 @@ class LessonScreen(Screen):
             text="Marked Complete (tap to undo)" if is_done else "Mark Complete",
             size_hint_y=None, height=dp(48),
             background_color=(CARD if is_done else ACCENT),
-            color=(TEXT if is_done else hx("#0b1f0c")))
+            color=(TEXT if is_done else ACCENT_TEXT))
 
         def toggle_complete(b):
             if app.progress.is_complete(self.subject_name, lesson["id"]):
@@ -1101,7 +1140,7 @@ class LessonScreen(Screen):
         # Translate / Delete
         edit_row = BoxLayout(size_hint_y=None, height=dp(48), spacing=dp(8))
         translate_btn = Button(text="Translate to English", background_color=CARD, color=TEXT)
-        delete_lesson_btn = Button(text="Delete Lesson", background_color=CARD, color=hx("#e07a7a"))
+        delete_lesson_btn = Button(text="Delete Lesson", background_color=CARD, color=DANGER)
         translate_btn.bind(on_release=lambda b: TranslatePopup(
             self.subject_name, lesson["id"], on_translated=self.build).open())
         delete_lesson_btn.bind(on_release=lambda b: ConfirmPopup(
@@ -1161,9 +1200,9 @@ class CombinedScreen(Screen):
         col.bind(minimum_height=col.setter("height"))
 
         for lesson in subj["lessons"]:
-            col.add_widget(wrapped_label(lesson["title"], bold=True, font_size="18sp"))
+            col.add_widget(wrapped_label(lesson["title"], bold=True, font_size="20sp", color=HEADING))
             col.add_widget(wrapped_label(lesson.get("summary", ""), color=MUTED, italic=True))
-            col.add_widget(wrapped_label(lesson.get("body", ""), font_size="14sp"))
+            col.add_widget(wrapped_label(lesson.get("body", ""), font_size="16sp"))
 
         scroll.add_widget(col)
         root.add_widget(scroll)
