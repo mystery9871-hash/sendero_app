@@ -9,7 +9,8 @@ source.include_patterns = data/*.json
 
 version = 1.0
 
-requirements = python3,kivy==2.3.1,plyer,pyjnius
+requirements = python3,kivy==2.3.1,pyjnius,filetype,certifi
+p4a.branch = v2024.01.21
 
 # Portrait phone app
 orientation = portrait
@@ -22,10 +23,9 @@ fullscreen = 0
 
 android.permissions = INTERNET
 
-# Reasonable modern defaults; buildozer-action keeps SDK/NDK versions current.
-android.api = 34
-android.minapi = 23
-android.archs = arm64-v8a, armeabi-v7a
+android.api = 33
+android.minapi = 24
+android.archs = arm64-v8a
 
 android.allow_backup = True
 
