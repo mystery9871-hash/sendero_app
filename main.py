@@ -55,18 +55,21 @@ def writable_data_dir():
     """Where subject files actually live once the app can edit them.
 
     The data/ folder shipped inside the app is read-only (it's part of the
-    installed APK). The first time the app runs, its bundled subjects are
-    copied into the app's own private, writable storage; every read and
-    write after that goes through this copy instead, so edits survive
-    across app updates and never touch the read-only original."""
+    installed APK). Every launch, any bundled starter subject that's
+    missing from the app's own private, writable storage gets copied back
+    in — this only ever fills a gap, never overwrites or removes a file
+    that's already there, so edits, added lessons, and deletions you made
+    on purpose are always left alone. Every read and write goes through
+    this writable copy, never the read-only original."""
     target = os.path.join(App.get_running_app().user_data_dir, "data")
-    if not os.path.isdir(target):
-        os.makedirs(target, exist_ok=True)
-        bundled = os.path.join(app_data_dir(), "data")
-        if os.path.isdir(bundled):
-            for fname in os.listdir(bundled):
-                if fname.endswith(".json") and fname != "progress_seed.json":
-                    shutil.copy2(os.path.join(bundled, fname), os.path.join(target, fname))
+    os.makedirs(target, exist_ok=True)
+    bundled = os.path.join(app_data_dir(), "data")
+    if os.path.isdir(bundled):
+        for fname in os.listdir(bundled):
+            if fname.endswith(".json") and fname != "progress_seed.json":
+                dest_path = os.path.join(target, fname)
+                if not os.path.exists(dest_path):
+                    shutil.copy2(os.path.join(bundled, fname), dest_path)
     return target
 
 
